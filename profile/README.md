@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="open-bricks-banner.png" alt="open-bricks" width="700">
+  <img src="open-bricks-banner.svg" alt="open-bricks" width="700">
 </p>
 
 <h1 align="center">open-bricks</h1>
