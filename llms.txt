@@ -1,0 +1,45 @@
+# open-bricks
+
+Canonical organization: https://github.com/open-bricks
+Profile repository: https://github.com/open-bricks/.github
+
+open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, and public-interest prototypes.
+
+Core positioning:
+- Local-first desktop software.
+- No telemetry and no subscription layer by default.
+- Optional AI integration through Ollama, Claude-compatible workflows, and MCP servers.
+- Python, PySide6, SQLite, CLI/API surfaces, web companions, and reproducible documentation.
+
+Related organizations:
+- file-bricks: https://github.com/file-bricks
+- doc-bricks: https://github.com/doc-bricks
+- dev-bricks: https://github.com/dev-bricks
+- ellmos-ai: https://github.com/ellmos-ai
+- research-line: https://github.com/research-line
+- biotec-line: https://github.com/biotec-line
+- assistassets-ai: https://github.com/assistassets-ai
+- entertain-and-more: https://github.com/entertain-and-more
+- um-bruch: https://github.com/um-bruch
+
+Representative repositories:
+- file-bricks/ProFiler: local-first file manager with OCR, PDF tools, duplicate detection, SQLite indexing, and privacy review.
+- file-bricks/NoteSpaceLLM: local NotebookLM-style document analysis and report workflow.
+- doc-bricks/UniversalDocsGrabber: local IMAP and Gmail document downloader with OCR, PDF conversion, dedupe, and PWA review.
+- doc-bricks/UniversalMailCleaner: local Gmail and IMAP mailbox cleaner.
+- dev-bricks/DevCenter: local developer dashboard for projects and development environments.
+- dev-bricks/apiprober: passive REST API discovery and documentation for owned or authorized services.
+- ellmos-ai/bach: text-based operating system for LLMs.
+- ellmos-ai/ellmos-filecommander-mcp: MCP server for filesystem, process, OCR, ZIP, Markdown/PDF export, and interactive sessions.
+- biotec-line/VFDistiller: research-use VCF/gVCF variant annotation desktop app.
+- assistassets-ai/FinancialProof: local-first financial market pattern analysis; no trading advice.
+- research-line/rh-even-dominance: Riemann Hypothesis research atlas with public scripts and Zenodo records.
+- um-bruch/regressangst: German public-interest research and materials around health-policy regression anxiety.
+
+Search phrases:
+- open-bricks local-first desktop software
+- file-bricks PySide6 desktop tools
+- doc-bricks document tools
+- dev-bricks developer tools
+- ellmos-ai MCP servers
+- local-first AI desktop apps

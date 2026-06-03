@@ -1,51 +1,77 @@
 <p align="center">
-  <img src="open-bricks-banner.svg" alt="open-bricks" width="700">
+  <img src="open-bricks-banner.svg" alt="open-bricks - local-first desktop software ecosystem" width="700">
 </p>
 
 <h1 align="center">open-bricks</h1>
 
 <p align="center">
-  <strong>A New Open Office — AI-native desktop software for the modern age.</strong><br>
-  Open source. Future-proof. Connected to LLMs from day one.
+  <strong>Local-first desktop software for files, documents, developer workflows, research, and AI-assisted work.</strong><br>
+  Open source tools with no telemetry, no subscription layer, and optional local AI integration.
 </p>
 
 <p align="center">
-  <a href="https://github.com/file-bricks">File Management</a> ·
-  <a href="https://github.com/doc-bricks">Document Tools</a> ·
-  <a href="https://github.com/dev-bricks">Developer Tools</a> ·
-  <a href="https://github.com/entertain-and-more">Entertainment</a>
+  <a href="https://github.com/file-bricks">File tools</a> |
+  <a href="https://github.com/doc-bricks">Document tools</a> |
+  <a href="https://github.com/dev-bricks">Developer tools</a> |
+  <a href="https://github.com/ellmos-ai">AI infrastructure</a> |
+  <a href="https://github.com/research-line">Open research</a>
 </p>
 
 ---
 
-## What is open-bricks?
+## Start Here
 
-**open-bricks** is the umbrella organization for a collection of **open-source desktop applications** designed for people who want powerful, local-first software with optional AI superpowers.
+| Need | Go to | Best first repo |
+|---|---|---|
+| Manage local files, prompts, knowledge bases, and desktop utilities | [file-bricks](https://github.com/file-bricks) | [ProFiler](https://github.com/file-bricks/ProFiler), [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM), [RSS-BOOK](https://github.com/file-bricks/RSS-BOOK) |
+| Work with mail, PDFs, literature, invoices, and document libraries | [doc-bricks](https://github.com/doc-bricks) | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [LitZentrum](https://github.com/doc-bricks/LitZentrum) |
+| Build, inspect, package, and maintain local software | [dev-bricks](https://github.com/dev-bricks) | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [apiprober](https://github.com/dev-bricks/apiprober) |
+| Connect desktop software to LLM agents and MCP servers | [ellmos-ai](https://github.com/ellmos-ai) | [bach](https://github.com/ellmos-ai/bach), [ellmos-filecommander-mcp](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [n8n-manager-mcp](https://github.com/ellmos-ai/n8n-manager-mcp) |
+| Find specialist tools for bioinformatics, finance, games, and public-interest research | [biotec-line](https://github.com/biotec-line), [assistassets-ai](https://github.com/assistassets-ai), [entertain-and-more](https://github.com/entertain-and-more), [research-line](https://github.com/research-line), [um-bruch](https://github.com/um-bruch) | [VFDistiller](https://github.com/biotec-line/VFDistiller), [FinancialProof](https://github.com/assistassets-ai/FinancialProof), [regressangst](https://github.com/um-bruch/regressangst) |
 
-Every app works **standalone without cloud dependency**. When connected to a local LLM (via [Ollama](https://ollama.com/)) or AI infrastructure (via [ellmos-ai](https://github.com/ellmos-ai) MCP servers), they become intelligent tools that understand your work.
+## What This Ecosystem Is
 
-## The Suite
+open-bricks is the umbrella profile for a family of small, practical, local-first tools. The shared product idea is simple:
 
-| Organization | Focus | Apps |
-|-------------|-------|------|
-| [file-bricks](https://github.com/file-bricks) | File management | ExplorerPro, ProFiler, ProSync, AmpelClip, KnowledgeDigest, NoteSpaceLLM, ProfiPrompt, MetaWiki, SoftwareCenter, SQLiteViewer, WinStorePackager |
-| [doc-bricks](https://github.com/doc-bricks) | Document tools | MediaBrain, DokuReader, LitZentrum, PDFtoPDFocr |
-| [dev-bricks](https://github.com/dev-bricks) | Developer tools | DevCenter, pythonbox, MethodenAnalyser, apiprober |
-| [entertain-and-more](https://github.com/entertain-and-more) | Games with AI | ChatAndChess, RPX Pro |
-| [biotec-line](https://github.com/biotec-line) | Bioinformatics | VFDistiller, genotype-to-vcf |
-| [assistassets-ai](https://github.com/assistassets-ai) | Financial tools | FinancialProof |
-| [research-line](https://github.com/research-line) | Open science | 7 research publications with Zenodo DOIs |
+- Your data stays on your machine.
+- Desktop apps should still be useful without cloud accounts.
+- AI should be an optional capability, not a forced dependency.
+- Repositories should be inspectable by humans, GitHub search, and LLM agents.
 
-## Why open-bricks?
+Most software projects in the ecosystem use Python, PySide6 or web companions, SQLite, local file formats, and focused command-line or API surfaces. AI integrations usually connect through Ollama, Claude-compatible workflows, or MCP servers from [ellmos-ai](https://github.com/ellmos-ai).
 
-- **No subscriptions.** No telemetry. No cloud lock-in. Your data stays on your machine.
-- **AI-ready by design.** Every app exposes CLI or API interfaces that LLM agents can use.
-- **Cross-category.** From file management to bioinformatics — one ecosystem, consistent quality.
-- **Built with Python + PySide6.** Easy to extend, easy to contribute.
+## Organization Map
+
+| Organization | Public focus | Examples |
+|---|---|---|
+| [file-bricks](https://github.com/file-bricks) | Local-first desktop apps for files, prompts, knowledge work, privacy, and browser workflows | ProFiler, NoteSpaceLLM, KnowledgeDigest, RSS-BOOK, SQLiteViewer |
+| [doc-bricks](https://github.com/doc-bricks) | Mail, document intake, PDF/OCR, literature management, and document libraries | UniversalDocsGrabber, UniversalMailCleaner, UniversalInvoiceMail, DokuReader, LitZentrum |
+| [dev-bricks](https://github.com/dev-bricks) | Developer tools, editors, API discovery, static analysis, and Codex maintenance | DevCenter, CodeBox, pythonbox, MethodenAnalyser, apiprober |
+| [ellmos-ai](https://github.com/ellmos-ai) | LLM operating systems, MCP servers, local agent memory, and workflow automation | bach, FileCommander MCP, CodeCommander MCP, n8n Manager MCP, clutch |
+| [biotec-line](https://github.com/biotec-line) | Research-use bioinformatics and genetic variant tools | VFDistiller, genotype-to-vcf |
+| [assistassets-ai](https://github.com/assistassets-ai) | Local-first financial analysis and no-advice assistant workflows | FinancialProof |
+| [entertain-and-more](https://github.com/entertain-and-more) | Local games and creative tools with optional AI assistance | ChatAndChess, rpx |
+| [research-line](https://github.com/research-line) | Open research repositories, reproducible scripts, and Zenodo-linked publication context | functional-stability-theory, crm-cosmology, rh-even-dominance |
+| [um-bruch](https://github.com/um-bruch) | Public-interest prototypes, health-policy analysis, and civic-tech research | regressangst, verordnungsampel, locuterra |
+
+## Search Phrases
+
+Use these phrases when looking for the ecosystem in GitHub or web search:
+
+- `open-bricks local-first desktop software`
+- `file-bricks PySide6 desktop tools`
+- `doc-bricks document tools`
+- `dev-bricks developer tools`
+- `ellmos-ai MCP servers`
+- `local-first AI desktop apps`
+
+## Contributing
+
+Each tool has its own repository, README, tests, and contribution path. Open issues and pull requests in the specific project repository. Organization-level community files are provided through this `.github` repository.
 
 ---
 
 <p align="center">
-  <strong>open-bricks</strong> — Open Source Software for the Age of AI<br>
-  Part of the <a href="https://github.com/ellmos-ai">ellmos-ai</a> ecosystem.
+  <strong>open-bricks</strong> - open-source software for local work in the age of AI.<br>
+  Built alongside <a href="https://github.com/ellmos-ai">ellmos-ai</a>.
 </p>
