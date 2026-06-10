@@ -35,6 +35,8 @@ Representative repositories:
 - assistassets-ai/FinancialProof: local-first financial market pattern analysis; no trading advice.
 - research-line/rh-even-dominance: Riemann Hypothesis research atlas with public scripts and Zenodo records.
 - um-bruch/regressangst: German public-interest research and materials around health-policy regression anxiety.
+- entertain-and-more/rpx: offline tabletop RPG control center with world system, soundboard, AI prompt generator, and JSON-RPC CLI.
+- entertain-and-more/ChatAndChess: local chess game with Minimax bot, Claude API mode, and Claude Code integration.
 
 Search phrases:
 - open-bricks local-first desktop software
@@ -43,3 +45,5 @@ Search phrases:
 - dev-bricks developer tools
 - ellmos-ai MCP servers
 - local-first AI desktop apps
+
+## Last-checked: 2026-06-10
