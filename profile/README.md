@@ -46,13 +46,13 @@ Most software projects in the ecosystem use Python, PySide6 or web companions, S
 |---|---|---|
 | [file-bricks](https://github.com/file-bricks) | Local-first desktop apps for files, prompts, knowledge work, privacy, and browser workflows | ProFiler, NoteSpaceLLM, KnowledgeDigest, RSS-BOOK, SQLiteViewer |
 | [doc-bricks](https://github.com/doc-bricks) | Mail, document intake, PDF/OCR, literature management, and document libraries | UniversalDocsGrabber, UniversalMailCleaner, UniversalInvoiceMail, DokuReader, LitZentrum |
-| [dev-bricks](https://github.com/dev-bricks) | Developer tools, editors, API discovery, static analysis, and Codex maintenance | DevCenter, CodeBox, pythonbox, MethodenAnalyser, apiprober |
+| [dev-bricks](https://github.com/dev-bricks) | Developer tools, editors, API discovery, static analysis, and Codex maintenance | DevCenter, CodeBox, apiprober, companion-for-agy |
 | [ellmos-ai](https://github.com/ellmos-ai) | LLM operating systems, MCP servers, local agent memory, and workflow automation | bach, FileCommander MCP, CodeCommander MCP, n8n Manager MCP, clutch |
 | [biotec-line](https://github.com/biotec-line) | Research-use bioinformatics and genetic variant tools | VFDistiller, genotype-to-vcf |
 | [assistassets-ai](https://github.com/assistassets-ai) | Local-first financial analysis and no-advice assistant workflows | FinancialProof |
 | [entertain-and-more](https://github.com/entertain-and-more) | Local games and creative tools with optional AI assistance | ChatAndChess, rpx |
 | [research-line](https://github.com/research-line) | Open research repositories, reproducible scripts, and Zenodo-linked publication context | functional-stability-theory, crm-cosmology, rh-even-dominance |
-| [um-bruch](https://github.com/um-bruch) | Public-interest prototypes, health-policy analysis, and civic-tech research | regressangst, verordnungsampel, locuterra |
+| [um-bruch](https://github.com/um-bruch) | Public-interest prototypes, health-policy analysis, and civic-tech research | regressangst, verordnungsampel, multiaxial-diagnostic-system, locuterra |
 
 ## Search Phrases
 
@@ -75,3 +75,5 @@ Each tool has its own repository, README, tests, and contribution path. Open iss
   <strong>open-bricks</strong> - open-source software for local work in the age of AI.<br>
   Built alongside <a href="https://github.com/ellmos-ai">ellmos-ai</a>.
 </p>
+
+<!-- last-checked: 2026-06-11 -->

@@ -1,9 +1,15 @@
+## Last-checked: 2026-06-11
+
 # open-bricks
 
 Canonical organization: https://github.com/open-bricks
 Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, and public-interest prototypes.
+
+## Audience
+
+Developers, researchers, and desktop users looking for local-first, privacy-conscious open-source tools that work without cloud accounts — with optional AI integration through Ollama, MCP servers, and Claude-compatible workflows.
 
 Core positioning:
 - Local-first desktop software.
@@ -29,21 +35,25 @@ Representative repositories:
 - doc-bricks/UniversalMailCleaner: local Gmail and IMAP mailbox cleaner.
 - dev-bricks/DevCenter: local developer dashboard for projects and development environments.
 - dev-bricks/apiprober: passive REST API discovery and documentation for owned or authorized services.
+- dev-bricks/companion-for-agy: CLI companion wrapper for the Gemini agy agent; npm-published, Windows-first.
 - ellmos-ai/bach: text-based operating system for LLMs.
 - ellmos-ai/ellmos-filecommander-mcp: MCP server for filesystem, process, OCR, ZIP, Markdown/PDF export, and interactive sessions.
 - biotec-line/VFDistiller: research-use VCF/gVCF variant annotation desktop app.
 - assistassets-ai/FinancialProof: local-first financial market pattern analysis; no trading advice.
 - research-line/rh-even-dominance: Riemann Hypothesis research atlas with public scripts and Zenodo records.
 - um-bruch/regressangst: German public-interest research and materials around health-policy regression anxiety.
+- um-bruch/multiaxial-diagnostic-system: multiaxial psychiatric diagnostic system with structured paper and reproducibility material.
 - entertain-and-more/rpx: offline tabletop RPG control center with world system, soundboard, AI prompt generator, and JSON-RPC CLI.
 - entertain-and-more/ChatAndChess: local chess game with Minimax bot, Claude API mode, and Claude Code integration.
 
-Search phrases:
-- open-bricks local-first desktop software
-- file-bricks PySide6 desktop tools
-- doc-bricks document tools
-- dev-bricks developer tools
-- ellmos-ai MCP servers
-- local-first AI desktop apps
+## Search Phrases
 
-## Last-checked: 2026-06-10
+```
+open-bricks local-first desktop software
+file-bricks PySide6 desktop tools
+doc-bricks document tools
+dev-bricks developer tools
+ellmos-ai MCP servers
+local-first AI desktop apps
+open-bricks umbrella organization GitHub
+```
