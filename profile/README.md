@@ -76,4 +76,4 @@ Each tool has its own repository, README, tests, and contribution path. Open iss
   Built alongside <a href="https://github.com/ellmos-ai">ellmos-ai</a>.
 </p>
 
-<!-- last-checked: 2026-06-11 -->
+<!-- last-checked: 2026-06-13 -->
