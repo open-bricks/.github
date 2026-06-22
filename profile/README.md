@@ -19,15 +19,17 @@
 
 ---
 
+**Public index verified: 2026-06-22.** The linked ecosystem currently exposes 74 active public product or research repositories plus 10 active public `.github` profile repositories. The `open-bricks` organization itself hosts only the [`.github`](https://github.com/open-bricks/.github) profile and community-health repository; product code lives in the linked organizations below.
+
 ## Start Here
 
 | Need | Go to | Best first repo |
 |---|---|---|
-| Manage local files, prompts, knowledge bases, and desktop utilities | [file-bricks](https://github.com/file-bricks) | [ProFiler](https://github.com/file-bricks/ProFiler), [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM), [RSS-BOOK](https://github.com/file-bricks/RSS-BOOK) |
-| Work with mail, PDFs, literature, invoices, and document libraries | [doc-bricks](https://github.com/doc-bricks) | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [LitZentrum](https://github.com/doc-bricks/LitZentrum) |
-| Build, inspect, package, and maintain local software | [dev-bricks](https://github.com/dev-bricks) | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [apiprober](https://github.com/dev-bricks/apiprober) |
-| Connect desktop software to LLM agents and MCP servers | [ellmos-ai](https://github.com/ellmos-ai) | [bach](https://github.com/ellmos-ai/bach), [ellmos-filecommander-mcp](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [n8n-manager-mcp](https://github.com/ellmos-ai/n8n-manager-mcp) |
-| Find specialist tools for bioinformatics, finance, games, and public-interest research | [biotec-line](https://github.com/biotec-line), [assistassets-ai](https://github.com/assistassets-ai), [entertain-and-more](https://github.com/entertain-and-more), [research-line](https://github.com/research-line), [um-bruch](https://github.com/um-bruch) | [VFDistiller](https://github.com/biotec-line/VFDistiller), [FinancialProof](https://github.com/assistassets-ai/FinancialProof), [regressangst](https://github.com/um-bruch/regressangst) |
+| Manage local files, prompts, knowledge bases, RSS feeds, and desktop utilities | [file-bricks](https://github.com/file-bricks) | [ExplorerPro](https://github.com/file-bricks/ExplorerPro), [ProFiler](https://github.com/file-bricks/ProFiler), [promptboard](https://github.com/file-bricks/promptboard), [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM) |
+| Work with mail, PDFs, literature, media, invoices, Markdown, and LLM notes | [doc-bricks](https://github.com/doc-bricks) | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [LitZentrum](https://github.com/doc-bricks/LitZentrum), [llm-note](https://github.com/doc-bricks/llm-note) |
+| Build, inspect, package, and maintain local software or agent workflows | [dev-bricks](https://github.com/dev-bricks) | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [apiprober](https://github.com/dev-bricks/apiprober), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
+| Connect desktop software to LLM agents, MCP servers, local memory, and computer-use workflows | [ellmos-ai](https://github.com/ellmos-ai) | [bach](https://github.com/ellmos-ai/bach), [ellmos-filecommander-mcp](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [ellmos-controlcenter-mcp](https://github.com/ellmos-ai/ellmos-controlcenter-mcp), [open-compute](https://github.com/ellmos-ai/open-compute) |
+| Find specialist tools for research, bioinformatics, finance, games, and civic technology | [research-line](https://github.com/research-line), [biotec-line](https://github.com/biotec-line), [assistassets-ai](https://github.com/assistassets-ai), [entertain-and-more](https://github.com/entertain-and-more), [um-bruch](https://github.com/um-bruch) | [functional-stability-theory](https://github.com/research-line/functional-stability-theory), [VFDistiller](https://github.com/biotec-line/VFDistiller), [FinancialProof](https://github.com/assistassets-ai/FinancialProof), [regressangst](https://github.com/um-bruch/regressangst) |
 
 ## What This Ecosystem Is
 
@@ -40,19 +42,20 @@ open-bricks is the umbrella profile for a family of small, practical, local-firs
 
 Most software projects in the ecosystem use Python, PySide6 or web companions, SQLite, local file formats, and focused command-line or API surfaces. AI integrations usually connect through Ollama, Claude-compatible workflows, or MCP servers from [ellmos-ai](https://github.com/ellmos-ai).
 
-## Organization Map
+## Current Public Index
 
-| Organization | Public focus | Examples |
+| Organization | Active public repos | Public focus | High-signal examples |
 |---|---|---|
-| [file-bricks](https://github.com/file-bricks) | Local-first desktop apps for files, prompts, knowledge work, privacy, and browser workflows | ProFiler, NoteSpaceLLM, KnowledgeDigest, RSS-BOOK, SQLiteViewer |
-| [doc-bricks](https://github.com/doc-bricks) | Mail, document intake, PDF/OCR, literature management, and document libraries | UniversalDocsGrabber, UniversalMailCleaner, UniversalInvoiceMail, DokuReader, LitZentrum |
-| [dev-bricks](https://github.com/dev-bricks) | Developer tools, editors, API discovery, static analysis, and Codex maintenance | DevCenter, CodeBox, apiprober, companion-for-agy |
-| [ellmos-ai](https://github.com/ellmos-ai) | LLM operating systems, MCP servers, local agent memory, and workflow automation | bach, FileCommander MCP, CodeCommander MCP, n8n Manager MCP, clutch |
-| [biotec-line](https://github.com/biotec-line) | Research-use bioinformatics and genetic variant tools | VFDistiller, genotype-to-vcf |
-| [assistassets-ai](https://github.com/assistassets-ai) | Local-first financial analysis and no-advice assistant workflows | FinancialProof |
-| [entertain-and-more](https://github.com/entertain-and-more) | Local games and creative tools with optional AI assistance | ChatAndChess, rpx |
-| [research-line](https://github.com/research-line) | Open research repositories, reproducible scripts, and Zenodo-linked publication context | functional-stability-theory, crm-cosmology, rh-even-dominance |
-| [um-bruch](https://github.com/um-bruch) | Public-interest prototypes, health-policy analysis, and civic-tech research | regressangst, verordnungsampel, multiaxial-diagnostic-system, locuterra |
+| [file-bricks](https://github.com/file-bricks) | 15 | Local-first desktop apps for files, prompts, knowledge work, privacy, RSS, cloud-sync repair, packaging, and browser workflows | [ExplorerPro](https://github.com/file-bricks/ExplorerPro), [ProFiler](https://github.com/file-bricks/ProFiler), [promptboard](https://github.com/file-bricks/promptboard), [ProfiPrompt](https://github.com/file-bricks/ProfiPrompt), [RSS-BOOK](https://github.com/file-bricks/RSS-BOOK), [CloudLockFixer](https://github.com/file-bricks/CloudLockFixer) |
+| [doc-bricks](https://github.com/doc-bricks) | 10 | Mail, document intake, PDF/OCR, literature management, media libraries, invoices, Markdown, and LLM notes | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail), [MediaBrain](https://github.com/doc-bricks/MediaBrain), [LitZentrum](https://github.com/doc-bricks/LitZentrum), [llm-note](https://github.com/doc-bricks/llm-note) |
+| [dev-bricks](https://github.com/dev-bricks) | 13 | Developer tools, editors, API discovery, static analysis, Codex/Gemini maintenance, file locks, ticket routing, and knowledge scaffolding | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [apiprober](https://github.com/dev-bricks/apiprober), [companion-for-agy](https://github.com/dev-bricks/companion-for-agy), [lock-master](https://github.com/dev-bricks/lock-master), [ticket-master](https://github.com/dev-bricks/ticket-master), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
+| [ellmos-ai](https://github.com/ellmos-ai) | 25 | LLM operating systems, MCP servers, local agent memory, workflow automation, connectors, media tooling, and computer-use modules | [bach](https://github.com/ellmos-ai/bach), [gardener](https://github.com/ellmos-ai/gardener), [FileCommander MCP](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [ControlCenter MCP](https://github.com/ellmos-ai/ellmos-controlcenter-mcp), [n8n Manager MCP](https://github.com/ellmos-ai/n8n-manager-mcp), [open-compute](https://github.com/ellmos-ai/open-compute), [ai-media-editor](https://github.com/ellmos-ai/ai-media-editor) |
+| [research-line](https://github.com/research-line) | 6 | Open research repositories, proof notes, reproducible scripts, and Zenodo-linked publication context | [functional-stability-theory](https://github.com/research-line/functional-stability-theory), [crm-cosmology](https://github.com/research-line/crm-cosmology), [rh-even-dominance](https://github.com/research-line/rh-even-dominance), [fst-nash](https://github.com/research-line/fst-nash) |
+| [biotec-line](https://github.com/biotec-line) | 3 | Research-use bioinformatics and genetic variant tools | [VFDistiller](https://github.com/biotec-line/VFDistiller), [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) |
+| [assistassets-ai](https://github.com/assistassets-ai) | 2 | Local-first financial analysis and no-advice assistant workflows | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) |
+| [entertain-and-more](https://github.com/entertain-and-more) | 3 | Local games and creative tools with optional AI assistance | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess), [rpx](https://github.com/entertain-and-more/rpx) |
+| [um-bruch](https://github.com/um-bruch) | 6 | Public-interest prototypes, health-policy analysis, civic-tech research, and local-first civic tools | [regressangst](https://github.com/um-bruch/regressangst), [verordnungsampel](https://github.com/um-bruch/verordnungsampel), [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system), [locuterra](https://github.com/um-bruch/locuterra), [system-medicine](https://github.com/um-bruch/system-medicine) |
+| [open-bricks](https://github.com/open-bricks) | 1 | Umbrella profile and community-health defaults | [`.github`](https://github.com/open-bricks/.github) |
 
 ## Search Phrases
 
@@ -60,9 +63,14 @@ Use these phrases when looking for the ecosystem in GitHub or web search:
 
 - `open-bricks local-first desktop software`
 - `file-bricks PySide6 desktop tools`
+- `file-bricks promptboard local-first prompt manager`
 - `doc-bricks document tools`
+- `doc-bricks llm-note local-first notes for agents`
 - `dev-bricks developer tools`
+- `dev-bricks safe-start-for-codex Windows startup gate`
 - `ellmos-ai MCP servers`
+- `ellmos-ai open-compute computer use agent loop`
+- `Umbruch health policy civic tech GitHub`
 - `local-first AI desktop apps`
 
 ## Contributing
@@ -76,4 +84,4 @@ Each tool has its own repository, README, tests, and contribution path. Open iss
   Built alongside <a href="https://github.com/ellmos-ai">ellmos-ai</a>.
 </p>
 
-<!-- last-checked: 2026-06-13 -->
+<!-- last-checked: 2026-06-22 -->

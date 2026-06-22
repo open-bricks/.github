@@ -1,11 +1,16 @@
-## Last-checked: 2026-06-13
+## Last-checked: 2026-06-22
 
 # open-bricks
 
 Canonical organization: https://github.com/open-bricks
 Profile repository: https://github.com/open-bricks/.github
 
-open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, and public-interest prototypes.
+open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
+
+Index status as of 2026-06-22:
+- open-bricks itself hosts only the `.github` profile and community-health repository.
+- The linked ecosystem has 74 active public product or research repositories plus 10 active public `.github` profile repositories.
+- Private/internal repositories are intentionally excluded from this public index.
 
 ## Audience
 
@@ -29,20 +34,37 @@ Related organizations:
 - um-bruch: https://github.com/um-bruch
 
 Representative repositories:
+- open-bricks/.github: umbrella organization profile and default community-health files.
+- file-bricks/ExplorerPro: local-first PySide6 file explorer with privacy checks, preview panels, duplicate finder, and sync tools.
 - file-bricks/ProFiler: local-first file manager with OCR, PDF tools, duplicate detection, SQLite indexing, and privacy review.
 - file-bricks/NoteSpaceLLM: local NotebookLM-style document analysis and report workflow.
+- file-bricks/promptboard: tray app for reusable LLM building blocks and markdown materialization.
+- file-bricks/CloudLockFixer: Windows tray tool for locked cloud-sync files.
 - doc-bricks/UniversalDocsGrabber: local IMAP and Gmail document downloader with OCR, PDF conversion, dedupe, and PWA review.
 - doc-bricks/UniversalMailCleaner: local Gmail and IMAP mailbox cleaner.
+- doc-bricks/LitZentrum: local-first literature manager with PDF, BibTeX, and companion JSON export.
+- doc-bricks/MediaBrain: local-first media library manager.
+- doc-bricks/llm-note: local-first notes and notebooks for LLM agents.
 - dev-bricks/DevCenter: local developer dashboard for projects and development environments.
 - dev-bricks/apiprober: passive REST API discovery and documentation for owned or authorized services.
 - dev-bricks/companion-for-agy: CLI companion wrapper for the Gemini agy agent; npm-published, Windows-first.
+- dev-bricks/lock-master: multi-agent LOCK*.txt file-lock system.
+- dev-bricks/ticket-master: multi-provider triage console for structured tickets.
+- dev-bricks/safe-start-for-codex: Windows startup gate for Codex Desktop automations.
 - ellmos-ai/bach: text-based operating system for LLMs.
 - ellmos-ai/ellmos-filecommander-mcp: MCP server for filesystem, process, OCR, ZIP, Markdown/PDF export, and interactive sessions.
+- ellmos-ai/ellmos-controlcenter-mcp: MCP control plane for local server discovery, profiles, capability bundles, and policy audits.
+- ellmos-ai/open-compute: model-agnostic computer-use core with normalized coordinates and safety gate.
+- ellmos-ai/ai-media-editor: local AI media editor for video, audio, podcasts, transcription, and agent-driven edits.
+- ellmos-ai/connectors: portable messaging connectors for AI agents.
 - biotec-line/VFDistiller: research-use VCF/gVCF variant annotation desktop app.
+- biotec-line/genotype-to-vcf: local 23andMe and DTC DNA raw data to VCF converter.
 - assistassets-ai/FinancialProof: local-first financial market pattern analysis; no trading advice.
+- research-line/functional-stability-theory: FST domain proofs and applications built on RFEP.
 - research-line/rh-even-dominance: Riemann Hypothesis research atlas with public scripts and Zenodo records.
 - um-bruch/regressangst: German public-interest research and materials around health-policy regression anxiety.
 - um-bruch/multiaxial-diagnostic-system: multiaxial psychiatric diagnostic system with structured paper and reproducibility material.
+- um-bruch/verordnungsampel: research-use prescribing-rule prototype for German public rule sets.
 - entertain-and-more/rpx: offline tabletop RPG control center with world system, soundboard, AI prompt generator, and JSON-RPC CLI.
 - entertain-and-more/ChatAndChess: local chess game with Minimax bot, Claude API mode, and Claude Code integration.
 
@@ -51,9 +73,15 @@ Representative repositories:
 ```
 open-bricks local-first desktop software
 file-bricks PySide6 desktop tools
+file-bricks promptboard local-first prompt manager
 doc-bricks document tools
+doc-bricks llm-note local-first notes for agents
 dev-bricks developer tools
+dev-bricks safe-start-for-codex Windows startup gate
 ellmos-ai MCP servers
+ellmos-ai open-compute computer use agent loop
+ellmos-ai local AI media editor
 local-first AI desktop apps
 open-bricks umbrella organization GitHub
+Umbruch health policy civic tech GitHub
 ```
