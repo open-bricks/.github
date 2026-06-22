@@ -1,6 +1,6 @@
 # open-bricks GitHub Profile
 
-This repository provides the public organization profile and community health defaults for [open-bricks](https://github.com/open-bricks).
+This repository, [open-bricks/.github](https://github.com/open-bricks/.github), provides the public organization profile and community health defaults for [open-bricks](https://github.com/open-bricks).
 
 Last verified: 2026-06-22.
 
@@ -23,7 +23,7 @@ Last verified: 2026-06-22.
 
 open-bricks is an umbrella profile for local-first desktop software, document tools, developer tools, AI infrastructure, research software, bioinformatics utilities, finance review tools, games, and public-interest prototypes across related organizations.
 
-The `open-bricks` organization itself currently hosts this `.github` profile repository only. Product code lives in the linked project organizations:
+The `open-bricks` organization itself currently hosts [open-bricks/.github](https://github.com/open-bricks/.github) only. Product code lives in the linked project organizations:
 
 | Organization | Current public surface |
 |---|---|
