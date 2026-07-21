@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-10
+## Last-checked: 2026-07-21
 
 # open-bricks
 
@@ -7,9 +7,9 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-07-10:
+Index status as of 2026-07-21:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 79 active public product or research repositories plus 10 active public `.github` profile repositories.
+- The linked ecosystem has 81 active public product or research repositories plus 10 active public `.github` profile repositories.
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
 
@@ -50,9 +50,13 @@ Representative repositories:
 - dev-bricks/apiprober: passive REST API discovery and documentation for owned or authorized services.
 - dev-bricks/companion-for-agy: CLI companion wrapper for the Gemini agy agent; npm-published, Windows-first.
 - dev-bricks/lock-master: multi-agent LOCK*.txt file-lock system.
+- dev-bricks/sync-master: serverless sync yard for multi-machine and multi-agent AI setups.
 - dev-bricks/ticket-master: multi-provider triage console for structured tickets.
+- dev-bricks/WikiStub-Seed: multilingual JSON knowledge-stub framework for AI research, documentation, ontology seeds, RAG, and LLM workflows.
 - dev-bricks/safe-start-for-codex: Windows startup gate for Codex Desktop automations.
 - ellmos-ai/bach: text-based operating system for LLMs.
+- ellmos-ai/agent-ops-stack: manifest-driven local agent-ops composition for ticket routing, locks, decision-avatar, skills, and MCP control.
+- ellmos-ai/build-your-users-mind: recipe for agents to build a self-improving theory-of-mind model of their user from interaction logs.
 - ellmos-ai/ellmos-filecommander-mcp: MCP server for filesystem, process, OCR, ZIP, Markdown/PDF export, and interactive sessions.
 - ellmos-ai/ellmos-controlcenter-mcp: MCP control plane for local server discovery, profiles, capability bundles, and policy audits.
 - ellmos-ai/ellmos-servercommander-mcp: MCP server for local server command, process, and status workflows.
@@ -83,8 +87,12 @@ file-bricks promptboard local-first prompt manager
 doc-bricks document tools
 doc-bricks llm-note local-first notes for agents
 dev-bricks developer tools
+dev-bricks sync-master multi-agent sync yard
+dev-bricks WikiStub-Seed multilingual knowledge stubs
 dev-bricks safe-start-for-codex Windows startup gate
 ellmos-ai MCP servers
+ellmos-ai agent-ops-stack local agent operations
+ellmos-ai build-your-users-mind theory of mind agent memory
 ellmos-ai open-compute computer use agent loop
 ellmos-ai local AI media editor
 ellmos-ai connectors portable agent messaging

@@ -2,7 +2,7 @@
 
 This repository, [open-bricks/.github](https://github.com/open-bricks/.github), provides the public organization profile and community health defaults for [open-bricks](https://github.com/open-bricks).
 
-Last verified: 2026-07-10.
+Last verified: 2026-07-21.
 
 ## Files
 
@@ -37,4 +37,4 @@ The `open-bricks` organization itself currently hosts [open-bricks/.github](http
 | [`entertain-and-more`](https://github.com/entertain-and-more) | Local games, tabletop RPG tools, and AI-assisted creative utilities |
 | [`um-bruch`](https://github.com/um-bruch) | Public-interest civic tech, health-policy research, and local-first prototypes |
 
-Verified public index on 2026-07-10: 79 active public product or research repositories plus 10 active public `.github` profile repositories across the linked organizations. Archived public repositories remain intentionally excluded from the active counts.
+Verified public index on 2026-07-21: 81 active public product or research repositories plus 10 active public `.github` profile repositories across the linked organizations. Archived public repositories remain intentionally excluded from the active counts.
