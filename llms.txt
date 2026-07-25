@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-21
+## Last-checked: 2026-07-26
 
 # open-bricks
 
@@ -7,9 +7,9 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-07-21:
+Index status as of 2026-07-26:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 81 active public product or research repositories plus 10 active public `.github` profile repositories.
+- The linked ecosystem has 87 active public product or research repositories plus 10 active public `.github` profile repositories (97 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
 
@@ -40,15 +40,18 @@ Representative repositories:
 - file-bricks/ProFiler: local-first file manager with OCR, PDF tools, duplicate detection, SQLite indexing, and privacy review.
 - file-bricks/NoteSpaceLLM: local NotebookLM-style document analysis and report workflow.
 - file-bricks/promptboard: tray app for reusable LLM building blocks and markdown materialization.
+- file-bricks/RSS-BOOKSTORE: feed collection and book reader.
 - file-bricks/CloudLockFixer: Windows tray tool for locked cloud-sync files.
 - doc-bricks/UniversalDocsGrabber: local IMAP and Gmail document downloader with OCR, PDF conversion, dedupe, and PWA review.
 - doc-bricks/UniversalMailCleaner: local Gmail and IMAP mailbox cleaner.
+- doc-bricks/CleanMarkdown: local-first Markdown viewer/editor with reading mode and PDF export.
 - doc-bricks/LitZentrum: local-first literature manager with PDF, BibTeX, and companion JSON export.
 - doc-bricks/MediaBrain: local-first media library manager.
 - doc-bricks/llm-note: local-first notes and notebooks for LLM agents.
 - dev-bricks/DevCenter: local developer dashboard for projects and development environments.
 - dev-bricks/apiprober: passive REST API discovery and documentation for owned or authorized services.
 - dev-bricks/companion-for-agy: CLI companion wrapper for the Gemini agy agent; npm-published, Windows-first.
+- dev-bricks/sqlite-transit-sync: local SQLite database sync and transit management.
 - dev-bricks/lock-master: multi-agent LOCK*.txt file-lock system.
 - dev-bricks/sync-master: serverless sync yard for multi-machine and multi-agent AI setups.
 - dev-bricks/ticket-master: multi-provider triage console for structured tickets.
@@ -65,8 +68,7 @@ Representative repositories:
 - ellmos-ai/ai-media-editor: local AI media editor for video, audio, podcasts, transcription, and agent-driven edits.
 - ellmos-ai/connectors: portable messaging connectors for AI agents.
 - ellmos-ai/clirec: command-line recording and replay utilities for agent/developer workflows.
-- ellmos-ai/web-scraper: lightweight scraping and form-inspection utility for owned or authorized web surfaces.
-- ellmos-ai/ellmos-blender-use-mcp: MCP bridge for local Blender asset and scene workflows.
+- ellmos-ai/law-checker: compliance auditing tool.
 - biotec-line/VFDistiller: research-use VCF/gVCF variant annotation desktop app.
 - biotec-line/genotype-to-vcf: local 23andMe and DTC DNA raw data to VCF converter.
 - assistassets-ai/FinancialProof: local-first financial market pattern analysis; no trading advice.
@@ -84,9 +86,11 @@ Representative repositories:
 open-bricks local-first desktop software
 file-bricks PySide6 desktop tools
 file-bricks promptboard local-first prompt manager
-doc-bricks document tools
+file-bricks RSS-BOOKSTORE feed management
+doc-bricks CleanMarkdown local-first markdown viewer
+doc-bricks MailProcessor email tools
 doc-bricks llm-note local-first notes for agents
-dev-bricks developer tools
+dev-bricks sqlite-transit-sync multi-agent DB sync
 dev-bricks sync-master multi-agent sync yard
 dev-bricks WikiStub-Seed multilingual knowledge stubs
 dev-bricks safe-start-for-codex Windows startup gate
@@ -94,8 +98,7 @@ ellmos-ai MCP servers
 ellmos-ai agent-ops-stack local agent operations
 ellmos-ai build-your-users-mind theory of mind agent memory
 ellmos-ai open-compute computer use agent loop
-ellmos-ai local AI media editor
-ellmos-ai connectors portable agent messaging
+ellmos-ai law-checker automated compliance audit
 open-bricks software suite GitHub
 local-first AI desktop apps
 open-bricks umbrella organization GitHub
