@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-26
+## Last-checked: 2026-07-27
 
 # open-bricks
 
@@ -7,20 +7,20 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-07-26:
+Index status as of 2026-07-27:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 87 active public product or research repositories plus 10 active public `.github` profile repositories (97 active public repositories total).
+- The linked ecosystem has 89 active public product or research repositories plus 10 active public `.github` profile repositories (99 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
 
 ## Audience
 
-Developers, researchers, and desktop users looking for local-first, privacy-conscious open-source tools that work without cloud accounts — with optional AI integration through Ollama, MCP servers, and Claude-compatible workflows.
+Developers, researchers, and desktop users looking for local-first, privacy-conscious open-source tools that work without cloud accounts — with optional AI integration through Ollama, MCP servers, and Claude/Gemini-compatible workflows.
 
 Core positioning:
 - Local-first desktop software.
 - No telemetry and no subscription layer by default.
-- Optional AI integration through Ollama, Claude-compatible workflows, and MCP servers.
+- Optional AI integration through Ollama, Claude/Gemini-compatible workflows, and MCP servers.
 - Python, PySide6, SQLite, CLI/API surfaces, web companions, and reproducible documentation.
 
 Related organizations:
@@ -50,13 +50,14 @@ Representative repositories:
 - doc-bricks/llm-note: local-first notes and notebooks for LLM agents.
 - dev-bricks/DevCenter: local developer dashboard for projects and development environments.
 - dev-bricks/apiprober: passive REST API discovery and documentation for owned or authorized services.
+- dev-bricks/comas: communication, status, and health agent suite for dev workflows.
 - dev-bricks/companion-for-agy: CLI companion wrapper for the Gemini agy agent; npm-published, Windows-first.
 - dev-bricks/sqlite-transit-sync: local SQLite database sync and transit management.
 - dev-bricks/lock-master: multi-agent LOCK*.txt file-lock system.
 - dev-bricks/sync-master: serverless sync yard for multi-machine and multi-agent AI setups.
 - dev-bricks/ticket-master: multi-provider triage console for structured tickets.
-- dev-bricks/WikiStub-Seed: multilingual JSON knowledge-stub framework for AI research, documentation, ontology seeds, RAG, and LLM workflows.
 - dev-bricks/safe-start-for-codex: Windows startup gate for Codex Desktop automations.
+- dev-bricks/CodeBox: developer toolbox and code generator suite.
 - ellmos-ai/bach: text-based operating system for LLMs.
 - ellmos-ai/agent-ops-stack: manifest-driven local agent-ops composition for ticket routing, locks, decision-avatar, skills, and MCP control.
 - ellmos-ai/build-your-users-mind: recipe for agents to build a self-improving theory-of-mind model of their user from interaction logs.
@@ -90,9 +91,9 @@ file-bricks RSS-BOOKSTORE feed management
 doc-bricks CleanMarkdown local-first markdown viewer
 doc-bricks MailProcessor email tools
 doc-bricks llm-note local-first notes for agents
+dev-bricks comas multi-agent status suite
 dev-bricks sqlite-transit-sync multi-agent DB sync
 dev-bricks sync-master multi-agent sync yard
-dev-bricks WikiStub-Seed multilingual knowledge stubs
 dev-bricks safe-start-for-codex Windows startup gate
 ellmos-ai MCP servers
 ellmos-ai agent-ops-stack local agent operations
