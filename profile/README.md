@@ -41,7 +41,7 @@
 > [!IMPORTANT]
 > **Local-First & Privacy First**: All tools in the open-bricks family store data locally on your machine without cloud subscription requirements, telemetry tracking, or forced remote dependencies.
 
-**Public index verified: 2026-07-27.** The linked ecosystem currently exposes 89 active public product or research repositories plus 10 active public `.github` profile repositories (99 active public repositories in total). The `open-bricks` organization itself hosts the [`.github`](https://github.com/open-bricks/.github) profile and umbrella community-health repository; product code lives in the linked organizations below.
+**Public index verified: 2026-07-29.** The linked ecosystem currently exposes 89 active public product or research repositories plus 10 active public `.github` profile repositories (99 active public repositories in total). The `open-bricks` organization itself hosts the [`.github`](https://github.com/open-bricks/.github) profile and umbrella community-health repository; product code lives in the linked organizations below.
 
 ## Start Here
 
@@ -146,4 +146,4 @@ Each tool has its own repository, README, tests, and contribution path. Open iss
   Built alongside <a href="https://github.com/ellmos-ai">ellmos-ai</a>.
 </p>
 
-<!-- last-checked: 2026-07-27 -->
+<!-- last-checked: 2026-07-29 -->

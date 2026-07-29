@@ -41,7 +41,7 @@
 > [!IMPORTANT]
 > **Local-First & Datenschutz**: Alle Werkzeuge der open-bricks Familie speichern Daten lokal auf Ihrem System. Es bestehen keine Cloud-Abos, kein Telemetrie-Tracking und keine erzwungenen Remote-Abhängigkeiten.
 
-**Öffentlicher Index verifiziert: 27.07.2026.** Das verlinkte Ökosystem umfasst aktuell 89 aktive öffentliche Produkt- und Forschungs-Repositories sowie 10 aktive öffentliche `.github` Profil-Repositories (insgesamt 99 aktive öffentliche Repositories). Die Organisation `open-bricks` selbst hostet das Profil- und Community-Health-Repository [`.github`](https://github.com/open-bricks/.github); der Produkt-Quellcode liegt in den verlinkten Teil-Organisationen.
+**Öffentlicher Index verifiziert: 29.07.2026.** Das verlinkte Ökosystem umfasst aktuell 89 aktive öffentliche Produkt- und Forschungs-Repositories sowie 10 aktive öffentliche `.github` Profil-Repositories (insgesamt 99 aktive öffentliche Repositories). Die Organisation `open-bricks` selbst hostet das Profil- und Community-Health-Repository [`.github`](https://github.com/open-bricks/.github); der Produkt-Quellcode liegt in den verlinkten Teil-Organisationen.
 
 ## Einstieg & Schnellübersicht
 
@@ -146,4 +146,4 @@ Jedes Werkzeug besitzt ein eigenes Repository mit eigenen Tests, Dokumentationen
   Entwickelt an der Seite von <a href="https://github.com/ellmos-ai">ellmos-ai</a>.
 </p>
 
-<!-- last-checked: 2026-07-27 -->
+<!-- last-checked: 2026-07-29 -->
