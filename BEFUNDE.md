@@ -2,10 +2,10 @@
 
 ## 2026-08-01 — Live-Zahlen des öffentlichen Ökosystem-Indexes weichen ab
 
-Status: offen; keine kuratierte Indexzahl eigenmächtig geändert.
+Status: erledigt am 2026-08-03; die kuratierte Indexzahl wurde nach Live-GitHub-Abgleich aktualisiert.
 
 Der lokale Index in `README.md`, `profile/README.md`, `profile/README_de.md` und
-`llms.txt` behauptet weiterhin 89 aktive öffentliche Produkt- oder
+`llms.txt` behauptete 89 aktive öffentliche Produkt- oder
 Forschungs-Repositories plus 10 aktive öffentliche `.github`-Profil-Repositories
 (insgesamt 99).
 
@@ -38,7 +38,8 @@ Abweichungen gegenüber der veröffentlichten Tabelle:
 - `ellmos-ai`: 46 live statt 36 dokumentiert
 - `entertain-and-more`: 3 live statt 2 dokumentiert
 
-Die vier Indexoberflächen sind dadurch nicht mehr als aktueller gemeinsamer
-Stand belegbar. Eine Korrektur erfordert eine abgestimmte Prüfung der
-organisationsübergreifenden Repository-Liste und der repräsentativen Links;
-dieser Maintainer-Lauf nimmt diese kuratierte Inhaltsentscheidung nicht vor.
+Die vier Indexoberflächen waren dadurch nicht mehr als aktueller gemeinsamer
+Stand belegbar. Der Folgelauf am 2026-08-03 hat `README.md`, `profile/README.md`,
+`profile/README_de.md` und `llms.txt` auf 94 aktive Produkt-/Forschungs-Repos
+plus 10 aktive `.github`-Profilrepos aktualisiert und die veralteten
+`dev-bricks`-Beispiellinks ersetzt.

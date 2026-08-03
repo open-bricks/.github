@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-29
+## Last-checked: 2026-08-03
 
 # open-bricks
 
@@ -7,9 +7,9 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-07-29:
+Index status as of 2026-08-03:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 89 active public product or research repositories plus 10 active public `.github` profile repositories (99 active public repositories total).
+- The linked ecosystem has 94 active public product or research repositories plus 10 active public `.github` profile repositories (104 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
 
@@ -36,28 +36,38 @@ Related organizations:
 
 Representative repositories:
 - open-bricks/.github: umbrella organization profile and default community-health files.
-- file-bricks/ExplorerPro: local-first PySide6 file explorer with privacy checks, preview panels, duplicate finder, and sync tools.
-- file-bricks/ProFiler: local-first file manager with OCR, PDF tools, duplicate detection, SQLite indexing, and privacy review.
-- file-bricks/NoteSpaceLLM: local NotebookLM-style document analysis and report workflow.
-- file-bricks/promptboard: tray app for reusable LLM building blocks and markdown materialization.
-- file-bricks/RSS-BOOKSTORE: feed collection and book reader.
+- file-bricks/AmpelClip: local clipboard and quick utility surface.
 - file-bricks/CloudLockFixer: Windows tray tool for locked cloud-sync files.
+- file-bricks/ExplorerPro: local-first PySide6 file explorer with privacy checks, preview panels, duplicate finder, and sync tools.
+- file-bricks/NoteSpaceLLM: local NotebookLM-style document analysis and report workflow.
+- file-bricks/ProFiler: local-first file manager with OCR, PDF tools, duplicate detection, SQLite indexing, and privacy review.
+- file-bricks/ProSync: local sync helper for file workflows.
+- file-bricks/ProfiPrompt: prompt workflow and prompt engineering utility.
+- file-bricks/promptboard: tray app for reusable LLM building blocks and markdown materialization.
+- file-bricks/RSS-BOOK: local RSS and bookmark reading workflow.
+- file-bricks/RSS-BOOKSTORE: feed collection and book reader.
+- file-bricks/SQLiteViewer: local SQLite inspection tool.
+- file-bricks/SoftwareCenter: desktop software launcher and catalog surface.
+- file-bricks/WinStorePackager: Windows Store and MSIX packaging helper.
+- file-bricks/knowledgedigest: local knowledge digest and document processing utility.
+- doc-bricks/CleanMarkdown: local-first Markdown viewer/editor with reading mode and PDF export.
+- doc-bricks/DokuReader: local document reading and extraction helper.
+- doc-bricks/LitZentrum: local-first literature manager with PDF, BibTeX, and companion JSON export.
+- doc-bricks/MailProcessor: local mail-processing workflow.
+- doc-bricks/MediaBrain: local-first media library manager.
 - doc-bricks/UniversalDocsGrabber: local IMAP and Gmail document downloader with OCR, PDF conversion, dedupe, and PWA review.
 - doc-bricks/UniversalMailCleaner: local Gmail and IMAP mailbox cleaner.
-- doc-bricks/CleanMarkdown: local-first Markdown viewer/editor with reading mode and PDF export.
-- doc-bricks/LitZentrum: local-first literature manager with PDF, BibTeX, and companion JSON export.
-- doc-bricks/MediaBrain: local-first media library manager.
+- doc-bricks/UniversalInvoiceMail: local invoice-mail intake and review workflow.
 - doc-bricks/llm-note: local-first notes and notebooks for LLM agents.
 - dev-bricks/DevCenter: local developer dashboard for projects and development environments.
-- dev-bricks/apiprober: passive REST API discovery and documentation for owned or authorized services.
-- dev-bricks/comas: communication, status, and health agent suite for dev workflows.
-- dev-bricks/companion-for-agy: CLI companion wrapper for the Gemini agy agent; npm-published, Windows-first.
-- dev-bricks/sqlite-transit-sync: local SQLite database sync and transit management.
-- dev-bricks/lock-master: multi-agent LOCK*.txt file-lock system.
-- dev-bricks/sync-master: serverless sync yard for multi-machine and multi-agent AI setups.
-- dev-bricks/ticket-master: multi-provider triage console for structured tickets.
-- dev-bricks/safe-start-for-codex: Windows startup gate for Codex Desktop automations.
 - dev-bricks/CodeBox: developer toolbox and code generator suite.
+- dev-bricks/MethodenAnalyser: method analysis utility.
+- dev-bricks/apiprober: passive REST API discovery and documentation for owned or authorized services.
+- dev-bricks/CareCenter-for-Codex: local care and health surface for Codex Desktop workflows.
+- dev-bricks/automizer-for-claude-desktop: scheduled-task automation helper for Claude Desktop.
+- dev-bricks/pythonbox: Python development utility surface.
+- dev-bricks/WikiStub-Seed: documentation and wiki seed generator.
+- dev-bricks/safe-start-for-codex: Windows startup gate for Codex Desktop automations.
 - ellmos-ai/bach: text-based operating system for LLMs.
 - ellmos-ai/agent-ops-stack: manifest-driven local agent-ops composition for ticket routing, locks, decision-avatar, skills, and MCP control.
 - ellmos-ai/build-your-users-mind: recipe for agents to build a self-improving theory-of-mind model of their user from interaction logs.
@@ -66,6 +76,7 @@ Representative repositories:
 - ellmos-ai/ellmos-servercommander-mcp: MCP server for local server command, process, and status workflows.
 - ellmos-ai/open-compute: model-agnostic computer-use core with normalized coordinates and safety gate.
 - ellmos-ai/open-compute-mcp: MCP bridge for open-compute style computer-use workflows.
+- ellmos-ai/task-master: task planning and task execution workflow surface.
 - ellmos-ai/ai-media-editor: local AI media editor for video, audio, podcasts, transcription, and agent-driven edits.
 - ellmos-ai/connectors: portable messaging connectors for AI agents.
 - ellmos-ai/clirec: command-line recording and replay utilities for agent/developer workflows.
@@ -73,13 +84,19 @@ Representative repositories:
 - biotec-line/VFDistiller: research-use VCF/gVCF variant annotation desktop app.
 - biotec-line/genotype-to-vcf: local 23andMe and DTC DNA raw data to VCF converter.
 - assistassets-ai/FinancialProof: local-first financial market pattern analysis; no trading advice.
+- research-line/ai-elite-swr: AI elite and worldview reconstruction research repository.
+- research-line/crm-cosmology: curvature feedback cosmology research repository.
+- research-line/fst-nash: FST/Nash research repository.
 - research-line/functional-stability-theory: FST domain proofs and applications built on RFEP.
 - research-line/rh-even-dominance: Riemann Hypothesis research atlas with public scripts and Zenodo records.
 - um-bruch/regressangst: German public-interest research and materials around health-policy regression anxiety.
+- um-bruch/locuterra: public-interest local-first civic prototype.
 - um-bruch/multiaxial-diagnostic-system: multiaxial psychiatric diagnostic system with structured paper and reproducibility material.
+- um-bruch/system-medicine: health-policy and system medicine research repository.
 - um-bruch/verordnungsampel: research-use prescribing-rule prototype for German public rule sets.
 - entertain-and-more/rpx: offline tabletop RPG control center with world system, soundboard, AI prompt generator, and JSON-RPC CLI.
 - entertain-and-more/ChatAndChess: local chess game with Minimax bot, Claude API mode, and Claude Code integration.
+- entertain-and-more/KlangpultLight: lightweight local audio panel for creative workflows.
 
 ## Search Phrases
 
@@ -91,9 +108,9 @@ file-bricks RSS-BOOKSTORE feed management
 doc-bricks CleanMarkdown local-first markdown viewer
 doc-bricks MailProcessor email tools
 doc-bricks llm-note local-first notes for agents
-dev-bricks comas multi-agent status suite
-dev-bricks sqlite-transit-sync multi-agent DB sync
-dev-bricks sync-master multi-agent sync yard
+dev-bricks CareCenter for Codex automation health
+dev-bricks automizer for Claude Desktop scheduled tasks
+dev-bricks WikiStub Seed documentation generator
 dev-bricks safe-start-for-codex Windows startup gate
 ellmos-ai MCP servers
 ellmos-ai agent-ops-stack local agent operations
