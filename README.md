@@ -2,7 +2,7 @@
 
 This repository, [open-bricks/.github](https://github.com/open-bricks/.github), provides the public organization profile and community health defaults for [open-bricks](https://github.com/open-bricks).
 
-Last verified: 2026-08-03.
+Last verified: 2026-08-06.
 
 ## Files
 
@@ -31,11 +31,11 @@ The `open-bricks` organization itself hosts [open-bricks/.github](https://github
 | [`file-bricks`](https://github.com/file-bricks) | 14 active product repos: local-first file, prompt, RSS, SQLite, sync, packaging, privacy, and knowledge-work tools |
 | [`doc-bricks`](https://github.com/doc-bricks) | 9 active product repos: mail, OCR, literature, media, invoice, Markdown, document, and LLM-note tools |
 | [`dev-bricks`](https://github.com/dev-bricks) | 9 active product repos: developer tools, editors, API discovery, automation helpers, documentation seeds, and startup gates |
-| [`ellmos-ai`](https://github.com/ellmos-ai) | 46 active product repos: LLM operating systems, MCP servers, local agent memory, media tooling, connectors, computer-use modules, and portable agent utilities |
+| [`ellmos-ai`](https://github.com/ellmos-ai) | 49 active product repos: LLM operating systems, MCP servers, local agent memory, media tooling, connectors, computer-use modules, and portable agent utilities |
 | [`research-line`](https://github.com/research-line) | 5 active product repos: open research repositories, proof notes, reproducible scripts, and Zenodo-linked publication context |
 | [`biotec-line`](https://github.com/biotec-line) | 2 active product repos: research-use VCF/gVCF, genotype conversion, and local bioinformatics tools |
 | [`assistassets-ai`](https://github.com/assistassets-ai) | 1 active product repo: local-first finance evidence review and no-advice workflows |
 | [`entertain-and-more`](https://github.com/entertain-and-more) | 3 active product repos: local games, tabletop RPG tools, lightweight audio utilities, and AI-assisted creative utilities |
 | [`um-bruch`](https://github.com/um-bruch) | 5 active product repos: public-interest civic tech, health-policy research, and local-first prototypes |
 
-Verified public index on 2026-08-03: 94 active public product or research repositories plus 10 active public `.github` profile repositories across the linked organizations (104 active public repositories in total). Archived public repositories remain intentionally excluded from active counts.
+Verified public index on 2026-08-06: 97 active public product or research repositories plus 10 active public `.github` profile repositories across the linked organizations (107 active public repositories in total). Archived public repositories remain intentionally excluded from active counts.
