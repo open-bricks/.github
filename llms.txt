@@ -1,4 +1,4 @@
-## Last-checked: 2026-08-06
+## Last-checked: 2026-08-16
 
 # open-bricks
 
@@ -7,9 +7,9 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-08-06:
+Index status as of 2026-08-16:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 97 active public product or research repositories plus 10 active public `.github` profile repositories (107 active public repositories total).
+- The linked ecosystem has 105 active public product or research repositories plus 10 active public `.github` profile repositories (115 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
 
