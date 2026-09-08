@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-blue?style=flat-square&logo=github" alt="Ecosystem open-bricks"></a>
-  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Oeffentliche_Repositories-115_Aktiv-success?style=flat-square&logo=github" alt="Öffentliche Repositories"></a>
+  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Oeffentliche_Repositories-129_Aktiv-success?style=flat-square&logo=github" alt="Öffentliche Repositories"></a>
   <a href="https://github.com/open-bricks/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/Lizenz-MIT_%2F_Open_Source-green?style=flat-square" alt="Lizenz MIT"></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Architektur-Local--First-orange?style=flat-square" alt="Local First"></a>
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/KI--Integration-Optional_Ollama_%2F_MCP-purple?style=flat-square" alt="KI Integration"></a>
@@ -41,17 +41,17 @@
 > [!IMPORTANT]
 > **Local-First & Datenschutz**: Alle Werkzeuge der open-bricks Familie speichern Daten lokal auf Ihrem System. Es bestehen keine Cloud-Abos, kein Telemetrie-Tracking und keine erzwungenen Remote-Abhängigkeiten.
 
-**Öffentlicher Index verifiziert: 16.08.2026.** Das verlinkte Ökosystem umfasst aktuell 105 aktive öffentliche Produkt- und Forschungs-Repositories sowie 10 aktive öffentliche `.github` Profil-Repositories (insgesamt 115 aktive öffentliche Repositories). Die Organisation `open-bricks` selbst hostet das Profil- und Community-Health-Repository [`.github`](https://github.com/open-bricks/.github); der Produkt-Quellcode liegt in den verlinkten Teil-Organisationen.
+**Öffentlicher Index verifiziert: 08.09.2026.** Das verlinkte Ökosystem umfasst aktuell 119 aktive öffentliche Produkt- und Forschungs-Repositories sowie 10 aktive öffentliche `.github` Profil-Repositories (insgesamt 129 aktive öffentliche Repositories). Die Organisation `open-bricks` selbst hostet das Profil- und Community-Health-Repository [`.github`](https://github.com/open-bricks/.github); der Produkt-Quellcode liegt in den verlinkten Teil-Organisationen.
 
 ## Einstieg & Schnellübersicht
 
 | Bedarf | Organisation | Empfohlene Einstiegs-Repos |
 |---|---|---|
-| Lokale Dateien, Prompts, Wissensdatenbanken, RSS-Feeds, Duplikaterkennung und Desktop-Utilities | [file-bricks](https://github.com/file-bricks) | [ExplorerPro](https://github.com/file-bricks/ExplorerPro), [ProFiler](https://github.com/file-bricks/ProFiler), [promptboard](https://github.com/file-bricks/promptboard), [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM), [RSS-BOOKSTORE](https://github.com/file-bricks/RSS-BOOKSTORE) |
-| E-Mail, PDFs, OCR, Literaturverwaltung, Medienbibliotheken, Rechnungsdaten, Markdown und LLM-Notizen | [doc-bricks](https://github.com/doc-bricks) | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [LitZentrum](https://github.com/doc-bricks/LitZentrum), [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown), [llm-note](https://github.com/doc-bricks/llm-note) |
-| Lokale Software bauen, prüfen, paketieren, dokumentieren und Multi-Agenten-Setups steuern | [dev-bricks](https://github.com/dev-bricks) | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [apiprober](https://github.com/dev-bricks/apiprober), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
+| Lokale Dateien, Prompts, Wissensdatenbanken, RSS-Feeds, Duplikaterkennung, App-Starter und Desktop-Utilities | [file-bricks](https://github.com/file-bricks) | [ExplorerPro](https://github.com/file-bricks/ExplorerPro), [ProFiler](https://github.com/file-bricks/ProFiler), [promptboard](https://github.com/file-bricks/promptboard), [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM), [LaunchBoards](https://github.com/file-bricks/LaunchBoards), [RSS-BOOKSTORE](https://github.com/file-bricks/RSS-BOOKSTORE) |
+| E-Mail, PDFs, OCR, Literaturverwaltung, Medienbibliotheken, Rechnungsdaten, Markdown, Dokumentenverwaltung und LLM-Notizen | [doc-bricks](https://github.com/doc-bricks) | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [LitZentrum](https://github.com/doc-bricks/LitZentrum), [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown), [llm-note](https://github.com/doc-bricks/llm-note), [DokuZen](https://github.com/doc-bricks/DokuZen) |
+| Lokale Software bauen, prüfen, paketieren, dokumentieren, Fenster-Workflows und Multi-Agenten-Setups steuern | [dev-bricks](https://github.com/dev-bricks) | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [ApiProber](https://github.com/dev-bricks/ApiProber), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [app-rotator](https://github.com/dev-bricks/app-rotator) |
 | Desktop-Software mit LLM-Agenten, MCP-Servern, lokalem Gedächtnis und Computer-Use verbinden | [ellmos-ai](https://github.com/ellmos-ai) | [bach](https://github.com/ellmos-ai/bach), [agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack), [build-your-users-mind](https://github.com/ellmos-ai/build-your-users-mind), [ellmos-filecommander-mcp](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [ellmos-controlcenter-mcp](https://github.com/ellmos-ai/ellmos-controlcenter-mcp), [open-compute](https://github.com/ellmos-ai/open-compute) |
-| Spezialwerkzeuge für Forschung, Bioinformatik, Finanzen, Spiele und Civic Tech | [research-line](https://github.com/research-line), [biotec-line](https://github.com/biotec-line), [assistassets-ai](https://github.com/assistassets-ai), [entertain-and-more](https://github.com/entertain-and-more), [um-bruch](https://github.com/um-bruch) | [functional-stability-theory](https://github.com/research-line/functional-stability-theory), [VFDistiller](https://github.com/biotec-line/VFDistiller), [FinancialProof](https://github.com/assistassets-ai/FinancialProof), [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess), [regressangst](https://github.com/um-bruch/regressangst) |
+| Spezialwerkzeuge für Forschung, Bioinformatik, Finanzen, Spiele und Civic Tech | [research-line](https://github.com/research-line), [biotec-line](https://github.com/biotec-line), [assistassets-ai](https://github.com/assistassets-ai), [entertain-and-more](https://github.com/entertain-and-more), [um-bruch](https://github.com/um-bruch) | [functional-stability-theory](https://github.com/research-line/functional-stability-theory), [abc-hct](https://github.com/research-line/abc-hct), [VFDistiller](https://github.com/biotec-line/VFDistiller), [FinancialProof](https://github.com/assistassets-ai/FinancialProof), [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess), [regressangst](https://github.com/um-bruch/regressangst), [locuterra](https://github.com/um-bruch/locuterra) |
 
 ## Systemarchitektur
 
@@ -66,7 +66,7 @@ flowchart TD
     subgraph Applications [Local-First Desktop & CLI Tools]
         D[file-bricks<br/>ExplorerPro, ProFiler, promptboard, RSS-BOOKSTORE]
         E[doc-bricks<br/>DocsGrabber, LitZentrum, CleanMarkdown, llm-note]
-        F[dev-bricks<br/>DevCenter, CodeBox, apiprober, WikiStub-Seed]
+        F[dev-bricks<br/>DevCenter, CodeBox, ApiProber, WikiStub-Seed]
     end
 
     subgraph Infrastructure [KI & Agenten-Infrastruktur]
@@ -100,18 +100,18 @@ Die meisten Softwareprojekte nutzen Python, PySide6 oder Web-Begleiter, SQLite, 
 
 | Organisation | Aktive Repos | Fokus | Repräsentative Beispiele |
 |---|---|---|---|
-| [file-bricks](https://github.com/file-bricks) | 14 | Local-First Desktop-Apps für Dateien, Prompts, Wissensarbeit, Datenschutz, RSS und Reparatur von Cloud-Sync | [ExplorerPro](https://github.com/file-bricks/ExplorerPro), [ProFiler](https://github.com/file-bricks/ProFiler), [promptboard](https://github.com/file-bricks/promptboard), [ProfiPrompt](https://github.com/file-bricks/ProfiPrompt), [RSS-BOOKSTORE](https://github.com/file-bricks/RSS-BOOKSTORE), [CloudLockFixer](https://github.com/file-bricks/CloudLockFixer) |
-| [doc-bricks](https://github.com/doc-bricks) | 9 | E-Mail-Intake, PDF/OCR, Literaturverwaltung, Medienbibliotheken, Rechnungs-Intake, Markdown und LLM-Notizen | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail), [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown), [LitZentrum](https://github.com/doc-bricks/LitZentrum), [llm-note](https://github.com/doc-bricks/llm-note) |
-| [dev-bricks](https://github.com/dev-bricks) | 9 | Entwickler-Werkzeuge, API-Erkennung, Automationshelfer, Dokumentations-Seeds und Start-Gates | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [apiprober](https://github.com/dev-bricks/apiprober), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
-| [ellmos-ai](https://github.com/ellmos-ai) | 57 | LLM-Betriebssysteme, MCP-Server, lokales Agentengedächtnis, Workflow-Automatisierung, Medien-Werkzeuge und Computer-Use | [bach](https://github.com/ellmos-ai/bach), [agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack), [build-your-users-mind](https://github.com/ellmos-ai/build-your-users-mind), [gardener](https://github.com/ellmos-ai/gardener), [FileCommander MCP](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [ControlCenter MCP](https://github.com/ellmos-ai/ellmos-controlcenter-mcp), [ServerCommander MCP](https://github.com/ellmos-ai/ellmos-servercommander-mcp), [open-compute](https://github.com/ellmos-ai/open-compute), [law-checker](https://github.com/ellmos-ai/law-checker), [task-master](https://github.com/ellmos-ai/task-master) |
-| [research-line](https://github.com/research-line) | 5 | Open-Science-Repositories, mathematische Beweisnotizen, reproduzierbare Skripte und Zenodo-Publikationskontext | [functional-stability-theory](https://github.com/research-line/functional-stability-theory), [crm-cosmology](https://github.com/research-line/crm-cosmology), [rh-even-dominance](https://github.com/research-line/rh-even-dominance), [fst-nash](https://github.com/research-line/fst-nash), [ai-elite-swr](https://github.com/research-line/ai-elite-swr) |
+| [file-bricks](https://github.com/file-bricks) | 15 | Local-First Desktop-Apps für Dateien, Prompts, Wissensarbeit, Datenschutz, RSS, Reparatur von Cloud-Sync und App-Starter | [ExplorerPro](https://github.com/file-bricks/ExplorerPro), [ProFiler](https://github.com/file-bricks/ProFiler), [promptboard](https://github.com/file-bricks/promptboard), [ProfiPrompt](https://github.com/file-bricks/ProfiPrompt), [RSS-BOOKSTORE](https://github.com/file-bricks/RSS-BOOKSTORE), [CloudLockFixer](https://github.com/file-bricks/CloudLockFixer), [LaunchBoards](https://github.com/file-bricks/LaunchBoards) |
+| [doc-bricks](https://github.com/doc-bricks) | 11 | E-Mail-Intake, PDF/OCR, Literaturverwaltung, Medienbibliotheken, Rechnungs-Intake, Markdown, Dokumentenverwaltung und LLM-Notizen | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail), [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown), [LitZentrum](https://github.com/doc-bricks/LitZentrum), [llm-note](https://github.com/doc-bricks/llm-note), [DokuZen](https://github.com/doc-bricks/DokuZen) |
+| [dev-bricks](https://github.com/dev-bricks) | 10 (+1 arch.) | Entwickler-Werkzeuge, API-Erkennung, Automationshelfer, Dokumentations-Seeds, Fenster-Umschalter und Start-Gates | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [ApiProber](https://github.com/dev-bricks/ApiProber), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [app-rotator](https://github.com/dev-bricks/app-rotator) |
+| [ellmos-ai](https://github.com/ellmos-ai) | 66 (+1 arch.) | LLM-Betriebssysteme, MCP-Server, lokales Agentengedächtnis, Workflow-Automatisierung, Medien-Werkzeuge und Computer-Use | [bach](https://github.com/ellmos-ai/bach), [agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack), [build-your-users-mind](https://github.com/ellmos-ai/build-your-users-mind), [gardener](https://github.com/ellmos-ai/gardener), [FileCommander MCP](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [ControlCenter MCP](https://github.com/ellmos-ai/ellmos-controlcenter-mcp), [ServerCommander MCP](https://github.com/ellmos-ai/ellmos-servercommander-mcp), [open-compute](https://github.com/ellmos-ai/open-compute), [law-checker](https://github.com/ellmos-ai/law-checker), [task-master](https://github.com/ellmos-ai/task-master) |
+| [research-line](https://github.com/research-line) | 6 (+1 arch.) | Open-Science-Repositories, mathematische Beweisnotizen, reproduzierbare Skripte und Zenodo-Publikationskontext | [functional-stability-theory](https://github.com/research-line/functional-stability-theory), [crm-cosmology](https://github.com/research-line/crm-cosmology), [rh-even-dominance](https://github.com/research-line/rh-even-dominance), [abc-hct](https://github.com/research-line/abc-hct), [fst-nash](https://github.com/research-line/fst-nash), [ai-elite-swr](https://github.com/research-line/ai-elite-swr) |
 | [biotec-line](https://github.com/biotec-line) | 2 | Bioinformatik-Werkzeuge für Forschung und Genotyp-Konvertierung | [VFDistiller](https://github.com/biotec-line/VFDistiller), [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) |
 | [assistassets-ai](https://github.com/assistassets-ai) | 1 | Local-First Finanzanalysen und beratungsfreie Assistenz-Workflows | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) |
 | [entertain-and-more](https://github.com/entertain-and-more) | 3 | Lokale Spiele, Tabletop-RPG-Workflows, leichte Audio-Utilities und kreative Werkzeuge mit optionaler KI-Unterstützung | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess), [rpx](https://github.com/entertain-and-more/rpx), [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) |
 | [um-bruch](https://github.com/um-bruch) | 5 | Gemeinwohlorientierte Prototypen, Gesundheitspolitik, Civic-Tech-Forschung und lokale Werkzeuge | [regressangst](https://github.com/um-bruch/regressangst), [verordnungsampel](https://github.com/um-bruch/verordnungsampel), [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system), [locuterra](https://github.com/um-bruch/locuterra), [system-medicine](https://github.com/um-bruch/system-medicine) |
 | [open-bricks](https://github.com/open-bricks) | 0 (1 `.github`) | Dachorganisation und Community-Health-Standards | [`.github`](https://github.com/open-bricks/.github) |
 
-## Suchbegriffe (Auffinbarkeit)
+## Suchbegriffe (Auffindbarkeit)
 
 Nutzen Sie diese Suchbegriffe für GitHub- und Websuchen nach dem Ökosystem:
 
@@ -119,18 +119,23 @@ Nutzen Sie diese Suchbegriffe für GitHub- und Websuchen nach dem Ökosystem:
 - `file-bricks PySide6 desktop tools`
 - `file-bricks promptboard local-first prompt manager`
 - `file-bricks RSS-BOOKSTORE feed management`
+- `file-bricks LaunchBoards desktop application launcher`
 - `doc-bricks CleanMarkdown local-first markdown viewer`
 - `doc-bricks MailProcessor email tools`
 - `doc-bricks llm-note local-first notes for agents`
+- `doc-bricks DokuZen document management`
 - `dev-bricks CareCenter for Codex automation health`
 - `dev-bricks automizer for Claude Desktop scheduled tasks`
 - `dev-bricks WikiStub Seed documentation generator`
 - `dev-bricks safe-start-for-codex Windows startup gate`
+- `dev-bricks app-rotator window switcher`
 - `ellmos-ai MCP servers`
 - `ellmos-ai agent-ops-stack local agent operations`
 - `ellmos-ai build-your-users-mind theory of mind agent memory`
 - `ellmos-ai open-compute computer use agent loop`
 - `ellmos-ai law-checker automated compliance audit`
+- `research-line abc-hct abc conjecture hecke verification`
+- `um-bruch locuterra local-first civic prototype`
 - `open-bricks software suite GitHub`
 - `Umbruch health policy civic tech GitHub`
 - `local-first AI desktop apps`
@@ -146,4 +151,4 @@ Jedes Werkzeug besitzt ein eigenes Repository mit eigenen Tests, Dokumentationen
   Entwickelt an der Seite von <a href="https://github.com/ellmos-ai">ellmos-ai</a>.
 </p>
 
-<!-- last-checked: 2026-08-16 -->
+<!-- last-checked: 2026-09-08 -->
