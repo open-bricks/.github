@@ -22,10 +22,10 @@ def test_timestamp_parity():
     root_content = ROOT_README.read_text(encoding="utf-8")
     llms_content = LLMS_TXT.read_text(encoding="utf-8")
 
-    assert "<!-- last-checked: 2026-09-08 -->" in en_content
-    assert "<!-- last-checked: 2026-09-08 -->" in de_content
-    assert "Last verified: 2026-09-08" in root_content
-    assert "## Last-checked: 2026-09-08" in llms_content
+    assert "<!-- last-checked: 2026-09-12 -->" in en_content
+    assert "<!-- last-checked: 2026-09-12 -->" in de_content
+    assert "Last verified: 2026-09-12" in root_content
+    assert "## Last-checked: 2026-09-12" in llms_content
 
 
 def test_repository_counts():
@@ -35,14 +35,14 @@ def test_repository_counts():
     llms_content = LLMS_TXT.read_text(encoding="utf-8")
 
     # Badges
-    assert "Public_Repositories-129_Active-success" in en_content
-    assert "Oeffentliche_Repositories-129_Aktiv-success" in de_content
+    assert "Public_Repositories-130_Active-success" in en_content
+    assert "Oeffentliche_Repositories-130_Aktiv-success" in de_content
 
     # Summary text
-    assert "129 active public repositories" in en_content
-    assert "129 aktive öffentliche Repositories" in de_content
-    assert "129 active public repositories in total" in root_content
-    assert "129 active public repositories total" in llms_content
+    assert "130 active public repositories" in en_content
+    assert "130 aktive öffentliche Repositories" in de_content
+    assert "130 active public repositories in total" in root_content
+    assert "130 active public repositories total" in llms_content
 
 
 def test_all_partner_organizations_present():
@@ -86,3 +86,12 @@ def test_fenced_code_blocks_and_mermaid():
         backticks = content.count("```")
         assert backticks % 2 == 0, f"Odd number of backticks in {path.name}"
         assert "flowchart TD" in content, f"Missing flowchart TD in {path.name}"
+
+
+def test_security_policy_parity():
+    sec_path = REPO_ROOT / "SECURITY.md"
+    assert sec_path.is_file(), "SECURITY.md does not exist"
+    sec_content = sec_path.read_text(encoding="utf-8")
+    assert "48 hours" in sec_content, "Missing 48 hours SLA in SECURITY.md"
+    assert "security@open-bricks.org" in sec_content, "Missing primary security contact"
+    assert "Zero-Egress" in sec_content, "Missing Zero-Egress invariant in SECURITY.md"

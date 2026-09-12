@@ -1,4 +1,4 @@
-## Last-checked: 2026-09-08
+## Last-checked: 2026-09-12
 
 # open-bricks
 
@@ -7,9 +7,9 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-09-08:
+Index status as of 2026-09-12:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 119 active public product or research repositories plus 10 active public `.github` profile repositories (129 active public repositories total).
+- The linked ecosystem has 120 active public product or research repositories plus 10 active public `.github` profile repositories (130 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
 
@@ -73,6 +73,10 @@ Representative repositories:
 - dev-bricks/app-rotator: quick window rotator and workspace task switcher.
 - ellmos-ai/bach: text-based operating system for LLMs.
 - ellmos-ai/agent-ops-stack: manifest-driven local agent-ops composition for ticket routing, locks, decision-avatar, skills, and MCP control.
+- ellmos-ai/clip-storyboard-director: local-first AI storyboard director and scene continuity orchestrator bridging video generation, CDP, and multitrack audio.
+- ellmos-ai/FolderHome: local-first household and personal document management agent.
+- ellmos-ai/NemoFold: evidence-first document intelligence and local agent workflow.
+- ellmos-ai/cowork-protocol: WebMCP bridge and multi-agent coordination protocol.
 - ellmos-ai/build-your-users-mind: recipe for agents to build a self-improving theory-of-mind model of their user from interaction logs.
 - ellmos-ai/gardener: ecosystem gardener and policy automation agent.
 - ellmos-ai/ellmos-filecommander-mcp: MCP server for filesystem, process, OCR, ZIP, Markdown/PDF export, and interactive sessions.
@@ -121,6 +125,10 @@ dev-bricks WikiStub Seed documentation generator
 dev-bricks safe-start-for-codex Windows startup gate
 dev-bricks app-rotator window switcher
 ellmos-ai MCP servers
+ellmos-ai clip-storyboard-director AI video continuity orchestrator
+ellmos-ai FolderHome household document agent
+ellmos-ai NemoFold evidence-first document agent
+ellmos-ai cowork-protocol WebMCP agent bridge
 ellmos-ai agent-ops-stack local agent operations
 ellmos-ai build-your-users-mind theory of mind agent memory
 ellmos-ai open-compute computer use agent loop
@@ -128,6 +136,7 @@ ellmos-ai law-checker automated compliance audit
 research-line abc-hct abc conjecture hecke verification
 um-bruch locuterra local-first civic prototype
 open-bricks software suite GitHub
+open-bricks 130 repositories open source
 local-first AI desktop apps
 open-bricks umbrella organization GitHub
 Umbruch health policy civic tech GitHub
