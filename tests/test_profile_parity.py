@@ -22,10 +22,10 @@ def test_timestamp_parity():
     root_content = ROOT_README.read_text(encoding="utf-8")
     llms_content = LLMS_TXT.read_text(encoding="utf-8")
 
-    assert "<!-- last-checked: 2026-09-12 -->" in en_content
-    assert "<!-- last-checked: 2026-09-12 -->" in de_content
-    assert "Last verified: 2026-09-12" in root_content
-    assert "## Last-checked: 2026-09-12" in llms_content
+    assert "<!-- last-checked: 2026-09-18 -->" in en_content
+    assert "<!-- last-checked: 2026-09-18 -->" in de_content
+    assert "Last verified: 2026-09-18" in root_content
+    assert "## Last-checked: 2026-09-18" in llms_content
 
 
 def test_repository_counts():
@@ -95,3 +95,26 @@ def test_security_policy_parity():
     assert "48 hours" in sec_content, "Missing 48 hours SLA in SECURITY.md"
     assert "security@open-bricks.org" in sec_content, "Missing primary security contact"
     assert "Zero-Egress" in sec_content, "Missing Zero-Egress invariant in SECURITY.md"
+
+
+def test_key_ecosystem_repositories_in_llms():
+    llms_content = LLMS_TXT.read_text(encoding="utf-8")
+    spotlight_repos = [
+        "file-bricks/ExplorerPro",
+        "file-bricks/SoftwareCenter",
+        "file-bricks/WinStorePackager",
+        "doc-bricks/CleanMarkdown",
+        "dev-bricks/DevCenter",
+        "dev-bricks/pythonbox",
+        "ellmos-ai/bach",
+        "ellmos-ai/ellmos-homebase-mcp",
+        "ellmos-ai/ellmos-scheduler",
+        "ellmos-ai/n8n-manager-mcp",
+        "research-line/abc-hct",
+        "biotec-line/VFDistiller",
+        "assistassets-ai/FinancialProof",
+        "entertain-and-more/ChatAndChess",
+        "um-bruch/locuterra",
+    ]
+    for repo in spotlight_repos:
+        assert repo in llms_content, f"Spotlight repo {repo} missing from llms.txt"

@@ -2,6 +2,19 @@
 
 All notable changes to the `open-bricks` organization profile and shared community files will be documented in this file.
 
+## [1.0.8] - 2026-09-18
+
+### Maintenance, Ecosystem Index & Discoverability
+- **Ecosystem Public Inventory Sync:** Re-verified live GitHub API counts across all 10 organizations (sweep of 133 total public repositories). Active public product/research repositories confirmed at 120, plus 10 `.github` profiles, totaling 130 active public repositories (and 3 archived: `recludos-legacy`, `fable-5-hunter`, `rfep-framework`).
+- **Repository Surface Updates & Extended Spotlight:**
+  - `ellmos-ai` (67 active + 1 arch.): Expanded spotlight across profiles and `llms.txt` for key local MCP infrastructure: `ellmos-homebase-mcp` (persistent local memory and knowledge graph MCP), `ellmos-scheduler` (resilient cron and task scheduler), `n8n-manager-mcp` (local n8n workflow management via MCP), `ellmos-codecommander-mcp` (AST refactoring and code repair MCP), `ellmos-clatcher-mcp` (window capture and UI OCR MCP), `companion-for-agy`, and `usmc`.
+  - `file-bricks` (15 active): Added spotlight for `SoftwareCenter` (local desktop software launcher and catalog), `WinStorePackager` (Windows Store and MSIX packager), `SQLiteViewer`, and `AmpelClip`; corrected canonical casing for `KnowledgeDigest`.
+  - `dev-bricks` (10 active + 1 arch.): Added spotlight for `pythonbox` (local Python development toolbox) and `MethodenAnalyser` (code structure and call graph analyzer).
+  - `doc-bricks` (11), `research-line` (6 + 1 arch.), `biotec-line` (2), `assistassets-ai` (1), `entertain-and-more` (3), and `um-bruch` (5): Re-verified 100% accounted for and active.
+- **Search Phrases & SEO:** Added targeted search terms for `SoftwareCenter`, `pythonbox`, `ellmos-homebase-mcp`, `ellmos-scheduler`, and `n8n-manager-mcp` across `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- **Automated Profile Parity Tests:** Updated `tests/test_profile_parity.py` to enforce timestamp `2026-09-18`, 130 active repositories, and added automated spotlight repository contract validation.
+- **Last-Checked Timestamps:** Synchronized `2026-09-18` / `18.09.2026` across all documents.
+
 ## [1.0.7] - 2026-09-12
 
 ### Maintenance, Ecosystem Index & Discoverability
