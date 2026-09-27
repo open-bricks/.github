@@ -2,6 +2,17 @@
 
 All notable changes to the `open-bricks` organization profile and shared community files will be documented in this file.
 
+## [1.0.9] - 2026-09-28
+
+### Maintenance, Ecosystem Index & Discoverability
+- **Ecosystem Public Inventory Sync:** Re-verified live GitHub API counts across all 10 organizations (sweep of 141 total public repositories). Active public product/research repositories updated from 120 to 128, plus 10 `.github` profiles, totaling 138 active public repositories (and 3 archived: `recludos-legacy`, `fable-5-hunter`, `rfep-framework`).
+- **Repository Surface Updates & Extended Spotlight:**
+  - `dev-bricks` updated from 10 to 11 active product repos (+1 archived), adding `zombie-killer-tray` as a Windows process-hygiene and local MCP/language-server cleanup tool.
+  - `ellmos-ai` updated from 67 to 74 active product repos (+1 archived), with new or newly surfaced spotlight entries for `anonymizer`, `doc-services`, `pasta-press`, `source-resolver`, and `worksheet-generator`.
+- **Search Phrases & SEO:** Added targeted search terms for the new dev-bricks process-hygiene surface and the new ellmos-ai privacy, OCR, source-resolution, local text-refinement, and worksheet-generation surfaces across `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- **Automated Profile Parity Tests:** Updated `tests/test_profile_parity.py` to enforce timestamp `2026-09-28`, 138 active repositories, and spotlight coverage for the newly indexed repositories.
+- **Last-Checked Timestamps:** Synchronized `2026-09-28` / `28.09.2026` across all public profile documents.
+
 ## [1.0.8] - 2026-09-18
 
 ### Maintenance, Ecosystem Index & Discoverability

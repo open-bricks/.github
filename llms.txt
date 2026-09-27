@@ -1,4 +1,4 @@
-## Last-checked: 2026-09-18
+## Last-checked: 2026-09-28
 
 # open-bricks
 
@@ -7,9 +7,9 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-09-18:
+Index status as of 2026-09-28:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 120 active public product or research repositories plus 10 active public `.github` profile repositories (130 active public repositories total).
+- The linked ecosystem has 128 active public product or research repositories plus 10 active public `.github` profile repositories (138 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
 
@@ -71,6 +71,7 @@ Representative repositories:
 - dev-bricks/WikiStub-Seed: documentation and wiki seed generator.
 - dev-bricks/safe-start-for-codex: Windows startup gate for Codex Desktop automations.
 - dev-bricks/app-rotator: quick window rotator and workspace task switcher.
+- dev-bricks/zombie-killer-tray: safe Windows tray for conservative cleanup of orphaned MCP and language-server processes.
 - ellmos-ai/bach: text-based operating system for LLMs.
 - ellmos-ai/agent-ops-stack: manifest-driven local agent-ops composition for ticket routing, locks, decision-avatar, skills, and MCP control.
 - ellmos-ai/clip-storyboard-director: local-first AI storyboard director and scene continuity orchestrator bridging video generation, CDP, and multitrack audio.
@@ -96,6 +97,11 @@ Representative repositories:
 - ellmos-ai/connectors: portable messaging connectors for AI agents.
 - ellmos-ai/clirec: command-line recording and replay utilities for agent/developer workflows.
 - ellmos-ai/law-checker: compliance auditing tool.
+- ellmos-ai/anonymizer: local-first pseudonymization for documents with fail-closed NER and authenticated key encryption.
+- ellmos-ai/doc-services: document extraction, OCR, and privacy-screening module.
+- ellmos-ai/pasta-press: local Ollama-backed text refinement, translation, and AI-disclosure workflow.
+- ellmos-ai/source-resolver: role-based source resolution for local policies, decisions, and system context.
+- ellmos-ai/worksheet-generator: local worksheet-material generator for education and support goals.
 - biotec-line/VFDistiller: research-use VCF/gVCF variant annotation desktop app.
 - biotec-line/genotype-to-vcf: local 23andMe and DTC DNA raw data to VCF converter.
 - assistassets-ai/FinancialProof: local-first financial market pattern analysis; no trading advice.
@@ -133,10 +139,16 @@ dev-bricks automizer for Claude Desktop scheduled tasks
 dev-bricks WikiStub Seed documentation generator
 dev-bricks safe-start-for-codex Windows startup gate
 dev-bricks app-rotator window switcher
+dev-bricks zombie-killer-tray process hygiene
 ellmos-ai MCP servers
 ellmos-ai ellmos-homebase-mcp local memory graph
 ellmos-ai ellmos-scheduler resilient multi-agent task runner
 ellmos-ai n8n-manager-mcp local workflow automation
+ellmos-ai anonymizer local-first pseudonymization
+ellmos-ai doc-services OCR privacy screening
+ellmos-ai source-resolver policy decision context resolution
+ellmos-ai pasta-press local Ollama text refinement
+ellmos-ai worksheet-generator local worksheet materials
 ellmos-ai clip-storyboard-director AI video continuity orchestrator
 ellmos-ai FolderHome household document agent
 ellmos-ai NemoFold evidence-first document agent
@@ -148,7 +160,7 @@ ellmos-ai law-checker automated compliance audit
 research-line abc-hct abc conjecture hecke verification
 um-bruch locuterra local-first civic prototype
 open-bricks software suite GitHub
-open-bricks 130 repositories open source
+open-bricks 138 repositories open source
 local-first AI desktop apps
 open-bricks umbrella organization GitHub
 Umbruch health policy civic tech GitHub

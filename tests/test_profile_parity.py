@@ -22,10 +22,10 @@ def test_timestamp_parity():
     root_content = ROOT_README.read_text(encoding="utf-8")
     llms_content = LLMS_TXT.read_text(encoding="utf-8")
 
-    assert "<!-- last-checked: 2026-09-18 -->" in en_content
-    assert "<!-- last-checked: 2026-09-18 -->" in de_content
-    assert "Last verified: 2026-09-18" in root_content
-    assert "## Last-checked: 2026-09-18" in llms_content
+    assert "<!-- last-checked: 2026-09-28 -->" in en_content
+    assert "<!-- last-checked: 2026-09-28 -->" in de_content
+    assert "Last verified: 2026-09-28" in root_content
+    assert "## Last-checked: 2026-09-28" in llms_content
 
 
 def test_repository_counts():
@@ -35,14 +35,14 @@ def test_repository_counts():
     llms_content = LLMS_TXT.read_text(encoding="utf-8")
 
     # Badges
-    assert "Public_Repositories-130_Active-success" in en_content
-    assert "Oeffentliche_Repositories-130_Aktiv-success" in de_content
+    assert "Public_Repositories-138_Active-success" in en_content
+    assert "Oeffentliche_Repositories-138_Aktiv-success" in de_content
 
     # Summary text
-    assert "130 active public repositories" in en_content
-    assert "130 aktive öffentliche Repositories" in de_content
-    assert "130 active public repositories in total" in root_content
-    assert "130 active public repositories total" in llms_content
+    assert "138 active public repositories" in en_content
+    assert "138 aktive öffentliche Repositories" in de_content
+    assert "138 active public repositories in total" in root_content
+    assert "138 active public repositories total" in llms_content
 
 
 def test_all_partner_organizations_present():
@@ -106,10 +106,15 @@ def test_key_ecosystem_repositories_in_llms():
         "doc-bricks/CleanMarkdown",
         "dev-bricks/DevCenter",
         "dev-bricks/pythonbox",
+        "dev-bricks/zombie-killer-tray",
         "ellmos-ai/bach",
+        "ellmos-ai/anonymizer",
+        "ellmos-ai/doc-services",
         "ellmos-ai/ellmos-homebase-mcp",
         "ellmos-ai/ellmos-scheduler",
         "ellmos-ai/n8n-manager-mcp",
+        "ellmos-ai/source-resolver",
+        "ellmos-ai/worksheet-generator",
         "research-line/abc-hct",
         "biotec-line/VFDistiller",
         "assistassets-ai/FinancialProof",
