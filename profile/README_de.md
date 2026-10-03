@@ -6,16 +6,15 @@
 
 <p align="center">
   <strong>Local-First Desktop-Software für Dateien, Dokumente, Entwickler-Workflows, Forschung und KI-gestützte Arbeit.</strong><br>
-  Open-Source-Werkzeuge ohne Telemetrie, ohne Abomodell und mit optionaler lokaler KI-Integration.
+  Open-Source-Werkzeuge mit projektspezifisch dokumentiertem Daten- und Netzwerkverhalten und optionaler lokaler KI-Integration.
 </p>
 
 <p align="center">
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-blue?style=flat-square&logo=github" alt="Ecosystem open-bricks"></a>
-  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Oeffentliche_Repositories-138_Aktiv-success?style=flat-square&logo=github" alt="Öffentliche Repositories"></a>
-  <a href="https://github.com/open-bricks/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/Lizenz-MIT_%2F_Open_Source-green?style=flat-square" alt="Lizenz MIT"></a>
+  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/%C3%96ffentliche_Repositories-138_Aktiv-success?style=flat-square&logo=github" alt="Öffentliche Repositories"></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Architektur-Local--First-orange?style=flat-square" alt="Local First"></a>
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/KI--Integration-Optional_Ollama_%2F_MCP-purple?style=flat-square" alt="KI Integration"></a>
-  <a href="SECURITY.md"><img src="https://img.shields.io/badge/Sicherheits--SLA-48h_Reaktion-blue?style=flat-square" alt="Sicherheits-SLA"></a>
+  <a href="https://github.com/open-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Sicherheitsrichtlinie-blue?style=flat-square" alt="Sicherheitsrichtlinie"></a>
 </p>
 
 <p align="center">
@@ -40,9 +39,10 @@
 > **Maschinenlesbarer Kontext**: Für KI-Agenten, LLM-Crawler und automatisierte Tools steht unter [`llms.txt`](https://github.com/open-bricks/.github/blob/main/llms.txt) eine strukturierte Ökosystem-Übersicht bereit.
 
 > [!IMPORTANT]
-> **Local-First & Datenschutz**: Alle Werkzeuge der open-bricks Familie speichern Daten lokal auf Ihrem System. Es bestehen keine Cloud-Abos, kein Telemetrie-Tracking und keine erzwungenen Remote-Abhängigkeiten.
+> **Local-First & Datenschutz**: Viele Projekte bevorzugen lokale Datenspeicherung; Speicher-, Telemetrie- und Netzwerkverhalten ist in der jeweiligen Repository-Dokumentation beschrieben.
 
 **Öffentlicher Index verifiziert: 28.09.2026.** Das verlinkte Ökosystem umfasst aktuell 128 aktive öffentliche Produkt- und Forschungs-Repositories sowie 10 aktive öffentliche `.github` Profil-Repositories (insgesamt 138 aktive öffentliche Repositories). Die Organisation `open-bricks` selbst hostet das Profil- und Community-Health-Repository [`.github`](https://github.com/open-bricks/.github); der Produkt-Quellcode liegt in den verlinkten Teil-Organisationen.
+**Gezieltes Update:** Der Branch `main` von Zombie-Killer-Tray wurde am 03.10.2026 gezielt geprüft; Gesamtzahlen und übrige Indexeinträge behalten den Stand vom 28.09.2026.
 
 ## Einstieg & Schnellübersicht
 
@@ -88,9 +88,9 @@ flowchart TD
 
 ## Philosophie des Ökosystems
 
-open-bricks bildet das gemeinsame Dach für praxisorientierte Local-First-Software. Der Grundsatz lautet:
+open-bricks bildet das gemeinsame Dach für praxisorientierte Software. Zu den gemeinsamen Designzielen gehören:
 
-- Ihre Daten verbleiben auf Ihrem Rechner.
+- Lokale Datenspeicherung wird bevorzugt; Speicher-, Telemetrie- und Netzwerkverhalten ist im jeweiligen Repository dokumentiert.
 - Desktop-Anwendungen müssen ohne Cloud-Konto voll funktionsfähig sein.
 - KI ist eine optionale Ergänzung, keine erzwungene Abhängigkeit.
 - Repositories sind transparent für Menschen, GitHub-Suche und KI-Agenten lesbar.

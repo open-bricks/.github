@@ -12,14 +12,15 @@ Index status as of 2026-09-28:
 - The linked ecosystem has 128 active public product or research repositories plus 10 active public `.github` profile repositories (138 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
+Targeted update: the Zombie-Killer-Tray entry below was checked against project main on 2026-10-03; the rest of this public index remains dated 2026-09-28.
 
 ## Audience
 
-Developers, researchers, and desktop users looking for local-first, privacy-conscious open-source tools that work without cloud accounts — with optional AI integration through Ollama, MCP servers, and Claude/Gemini-compatible workflows.
+Developers, researchers, and desktop users looking for open-source tools for local-first and cloud-connected workflows; check each repository's documentation for data, network, account, and AI requirements.
 
 Core positioning:
 - Local-first desktop software.
-- No telemetry and no subscription layer by default.
+- Storage, telemetry, and network behavior are documented per repository; no blanket zero-egress promise applies to the ecosystem.
 - Optional AI integration through Ollama, Claude/Gemini-compatible workflows, and MCP servers.
 - Python, PySide6, SQLite, CLI/API surfaces, web companions, and reproducible documentation.
 
@@ -71,7 +72,7 @@ Representative repositories:
 - dev-bricks/WikiStub-Seed: documentation and wiki seed generator.
 - dev-bricks/safe-start-for-codex: Windows startup gate for Codex Desktop automations.
 - dev-bricks/app-rotator: quick window rotator and workspace task switcher.
-- dev-bricks/zombie-killer-tray: safe Windows tray for conservative cleanup of orphaned MCP and language-server processes.
+- dev-bricks/zombie-killer-tray: Windows tray utility for conservative cleanup of orphaned MCP and language-server processes (project main checked 2026-10-03).
 - ellmos-ai/bach: text-based operating system for LLMs.
 - ellmos-ai/agent-ops-stack: manifest-driven local agent-ops composition for ticket routing, locks, decision-avatar, skills, and MCP control.
 - ellmos-ai/clip-storyboard-director: local-first AI storyboard director and scene continuity orchestrator bridging video generation, CDP, and multitrack audio.

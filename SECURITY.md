@@ -12,6 +12,8 @@ If you discover a security vulnerability or security concern within any reposito
    - `lukas@open-bricks.org`
    - `support@lukasgeiger.com`
 
+Project-specific SECURITY policies govern the repositories they cover. For a report about a product repository, consult that repository's current policy for its response commitments.
+
 ---
 
 ## Response Timeline / Reaktionszeit
@@ -34,6 +36,6 @@ If you discover a security vulnerability or security concern within any reposito
 
 ## Security Invariants / Sicherheitsinvarianten
 
-- **Zero-Egress & Local-First:** All desktop utilities, document tools, MCP servers, and data storage workflows are engineered to run 100% locally with zero unconsented telemetry, analytics, or cloud data egress.
-- **Unprivileged User Mode (Non-Elevation):** Tools operate within standard user privileges and do not require elevated administrator or root privileges for normal desktop operation.
-- **Integrity & Source Preservation:** Local transformations, file actions, and data indexers preserve original input data by default and operate non-destructively.
+- **Network, telemetry, and data behavior:** These properties vary by repository and are described in its current documentation and SECURITY policy; no blanket zero-egress guarantee applies to every linked project.
+- **Privilege requirements:** Requirements depend on the repository and workflow. The Zombie-Killer-Tray tray launcher can request UAC elevation for termination workflows; see its project documentation.
+- **Data integrity and source preservation:** These properties are repository-specific; consult the affected project's documentation rather than treating them as ecosystem-wide guarantees.

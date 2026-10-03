@@ -1,4 +1,4 @@
-"""Tests for open-bricks profile parity, timestamps, and ecosystem consistency."""
+"""Text and link parity checks for open-bricks profiles, timestamps, and ecosystem consistency."""
 
 import re
 from pathlib import Path
@@ -36,7 +36,7 @@ def test_repository_counts():
 
     # Badges
     assert "Public_Repositories-138_Active-success" in en_content
-    assert "Oeffentliche_Repositories-138_Aktiv-success" in de_content
+    assert "%C3%96ffentliche_Repositories-138_Aktiv-success" in de_content
 
     # Summary text
     assert "138 active public repositories" in en_content
@@ -88,13 +88,18 @@ def test_fenced_code_blocks_and_mermaid():
         assert "flowchart TD" in content, f"Missing flowchart TD in {path.name}"
 
 
-def test_security_policy_parity():
+def test_security_policy_text_and_link_parity():
     sec_path = REPO_ROOT / "SECURITY.md"
     assert sec_path.is_file(), "SECURITY.md does not exist"
     sec_content = sec_path.read_text(encoding="utf-8")
-    assert "48 hours" in sec_content, "Missing 48 hours SLA in SECURITY.md"
+    assert "48 hours" in sec_content, "Missing organization response commitment in SECURITY.md"
     assert "security@open-bricks.org" in sec_content, "Missing primary security contact"
-    assert "Zero-Egress" in sec_content, "Missing Zero-Egress invariant in SECURITY.md"
+    assert "These properties vary by repository" in sec_content
+    assert "Zombie-Killer-Tray tray launcher can request UAC elevation" in sec_content
+
+    profile_content = PROFILE_EN.read_text(encoding="utf-8")
+    policy_href = "https://github.com/open-bricks/.github/blob/main/SECURITY.md"
+    assert f'href="{policy_href}"' in profile_content
 
 
 def test_key_ecosystem_repositories_in_llms():
