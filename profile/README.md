@@ -6,16 +6,15 @@
 
 <p align="center">
   <strong>Local-first desktop software for files, documents, developer workflows, research, and AI-assisted work.</strong><br>
-  Open source tools with no telemetry, no subscription layer, and optional local AI integration.
+  Many projects are designed for local-first use; data and network behavior is documented per repository, with optional local AI integration in some projects.
 </p>
 
 <p align="center">
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-blue?style=flat-square&logo=github" alt="Ecosystem open-bricks"></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Public_Repositories-138_Active-success?style=flat-square&logo=github" alt="Public Repositories"></a>
-  <a href="https://github.com/open-bricks/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT_%2F_Open_Source-green?style=flat-square" alt="License MIT"></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Architecture-Local--First-orange?style=flat-square" alt="Local First"></a>
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/AI_Integration-Optional_Ollama_%2F_MCP-purple?style=flat-square" alt="AI Integration"></a>
-  <a href="SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Response-blue?style=flat-square" alt="Security SLA"></a>
+  <a href="https://github.com/open-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_Policy-blue?style=flat-square" alt="Security Policy"></a>
 </p>
 
 <p align="center">
@@ -40,9 +39,10 @@
 > **Machine-Readable Context**: For AI agents, LLM crawlers, and automated tools, a structured ecosystem directory is available at [`llms.txt`](https://github.com/open-bricks/.github/blob/main/llms.txt).
 
 > [!IMPORTANT]
-> **Local-First & Privacy First**: All tools in the open-bricks family store data locally on your machine without cloud subscription requirements, telemetry tracking, or forced remote dependencies.
+> **Local-first use:** Storage, telemetry, network access, and external-service behavior are documented per repository. See each project's documentation and SECURITY policy for current details.
 
 **Public index verified: 2026-09-28.** The linked ecosystem currently exposes 128 active public product or research repositories plus 10 active public `.github` profile repositories (138 active public repositories in total). The `open-bricks` organization itself hosts the [`.github`](https://github.com/open-bricks/.github) profile and umbrella community-health repository; product code lives in the linked organizations below.
+**Targeted update:** Zombie-Killer-Tray reflects a targeted main-branch readback on 2026-10-03; the wider index counts and remaining entries retain the 2026-09-28 snapshot.
 
 ## Start Here
 
@@ -88,9 +88,9 @@ flowchart TD
 
 ## What This Ecosystem Is
 
-open-bricks is the umbrella profile for a family of small, practical, local-first tools. The shared product idea is simple:
+open-bricks is the umbrella profile for a family of small, practical tools. Shared design goals include:
 
-- Your data stays on your machine.
+- Prefer local data storage; storage and network behavior are documented per repository.
 - Desktop apps should still be useful without cloud accounts.
 - AI should be an optional capability, not a forced dependency.
 - Repositories should be inspectable by humans, GitHub search, and LLM agents.
