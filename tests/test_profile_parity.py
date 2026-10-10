@@ -22,10 +22,10 @@ def test_timestamp_parity():
     root_content = ROOT_README.read_text(encoding="utf-8")
     llms_content = LLMS_TXT.read_text(encoding="utf-8")
 
-    assert "<!-- last-checked: 2026-09-28 -->" in en_content
-    assert "<!-- last-checked: 2026-09-28 -->" in de_content
-    assert "Last verified: 2026-09-28" in root_content
-    assert "## Last-checked: 2026-09-28" in llms_content
+    assert "<!-- last-checked: 2026-10-10 -->" in en_content
+    assert "<!-- last-checked: 2026-10-10 -->" in de_content
+    assert "Last verified: 2026-10-10" in root_content
+    assert "## Last-checked: 2026-10-10" in llms_content
 
 
 def test_repository_counts():
@@ -35,14 +35,14 @@ def test_repository_counts():
     llms_content = LLMS_TXT.read_text(encoding="utf-8")
 
     # Badges
-    assert "Public_Repositories-138_Active-success" in en_content
-    assert "%C3%96ffentliche_Repositories-138_Aktiv-success" in de_content
+    assert "Public_Repositories-139_Active-success" in en_content
+    assert "%C3%96ffentliche_Repositories-139_Aktiv-success" in de_content
 
     # Summary text
-    assert "138 active public repositories" in en_content
-    assert "138 aktive öffentliche Repositories" in de_content
-    assert "138 active public repositories in total" in root_content
-    assert "138 active public repositories total" in llms_content
+    assert "139 active public repositories" in en_content
+    assert "139 aktive öffentliche Repositories" in de_content
+    assert "139 active public repositories in total" in root_content
+    assert "139 active public repositories total" in llms_content
 
 
 def test_all_partner_organizations_present():
@@ -113,6 +113,7 @@ def test_key_ecosystem_repositories_in_llms():
         "dev-bricks/pythonbox",
         "dev-bricks/zombie-killer-tray",
         "ellmos-ai/bach",
+        "ellmos-ai/ellmos-system-gui",
         "ellmos-ai/anonymizer",
         "ellmos-ai/doc-services",
         "ellmos-ai/ellmos-homebase-mcp",

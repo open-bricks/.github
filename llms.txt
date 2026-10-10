@@ -1,4 +1,4 @@
-## Last-checked: 2026-09-28
+## Last-checked: 2026-10-10
 
 # open-bricks
 
@@ -7,12 +7,12 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-09-28:
+Index status as of 2026-10-10:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 128 active public product or research repositories plus 10 active public `.github` profile repositories (138 active public repositories total).
+- The linked ecosystem has 129 active public product or research repositories plus 10 active public `.github` profile repositories (139 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
-Targeted update: the Zombie-Killer-Tray entry below was checked against project main on 2026-10-03; the rest of this public index remains dated 2026-09-28.
+Full re-verification: every count and index entry was measured against the live GitHub inventory on 2026-10-10, which supersedes the targeted 2026-10-03 Zombie-Killer-Tray spot check. New since the previous snapshot: ellmos-ai/ellmos-system-gui.
 
 ## Audience
 
@@ -74,6 +74,7 @@ Representative repositories:
 - dev-bricks/app-rotator: quick window rotator and workspace task switcher.
 - dev-bricks/zombie-killer-tray: Windows tray utility for conservative cleanup of orphaned MCP and language-server processes (project main checked 2026-10-03).
 - ellmos-ai/bach: text-based operating system for LLMs.
+- ellmos-ai/ellmos-system-gui: shared static GUI artifact for BACH and Ocean with a version-pinned backend contract.
 - ellmos-ai/agent-ops-stack: manifest-driven local agent-ops composition for ticket routing, locks, decision-avatar, skills, and MCP control.
 - ellmos-ai/clip-storyboard-director: local-first AI storyboard director and scene continuity orchestrator bridging video generation, CDP, and multitrack audio.
 - ellmos-ai/FolderHome: local-first household and personal document management agent.
@@ -161,7 +162,8 @@ ellmos-ai law-checker automated compliance audit
 research-line abc-hct abc conjecture hecke verification
 um-bruch locuterra local-first civic prototype
 open-bricks software suite GitHub
-open-bricks 138 repositories open source
+ellmos-ai ellmos-system-gui shared static GUI artifact
+open-bricks 139 repositories open source
 local-first AI desktop apps
 open-bricks umbrella organization GitHub
 Umbruch health policy civic tech GitHub

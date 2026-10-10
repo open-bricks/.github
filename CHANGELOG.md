@@ -2,6 +2,16 @@
 
 All notable changes to the `open-bricks` organization profile and shared community files will be documented in this file.
 
+## [1.0.10] - 2026-10-10
+
+### Maintenance, Ecosystem Index & Discoverability
+- **Ecosystem Public Inventory Sync:** Re-verified live GitHub API counts across all 10 organizations (sweep of 142 total public repositories). Active public product/research repositories updated from 128 to 129, plus 10 `.github` profiles, totaling 139 active public repositories (and 3 archived, unchanged).
+- **Register Parity:** Full index-vs-live reconciliation found exactly one gap since the 2026-09-28 snapshot — `ellmos-ai/ellmos-system-gui` (created 2026-10-03, shared static GUI artifact for BACH and Ocean with a version-pinned backend contract) was missing from every start-page surface. `ellmos-ai` updated from 74 to 75 active product repos (+1 archived); all other nine organizations reconciled at 100% with no drift.
+- **Index Scope Note:** Replaced the targeted 2026-10-03 Zombie-Killer-Tray spot-check notice with a full re-verification statement, since all counts and entries are now measured against the live inventory.
+- **Search Phrases & SEO:** Added bilingual search terms for the new shared-GUI-artifact surface across `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- **Automated Profile Parity Tests:** Updated `tests/test_profile_parity.py` to enforce timestamp `2026-10-10`, 139 active repositories, and spotlight coverage for `ellmos-ai/ellmos-system-gui`.
+- **Last-Checked Timestamps:** Synchronized `2026-10-10` / `10.10.2026` across all public profile documents.
+
 ## [1.0.9] - 2026-09-28
 
 ### Maintenance, Ecosystem Index & Discoverability
