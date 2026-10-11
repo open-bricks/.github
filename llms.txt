@@ -84,6 +84,7 @@ Representative repositories:
 - ellmos-ai/gardener: ecosystem gardener and policy automation agent.
 - ellmos-ai/ellmos-homebase-mcp: MCP server for local persistent memory, knowledge graph, and entity storage.
 - ellmos-ai/ellmos-scheduler: resilient cron, interval, and event-driven task scheduler for multi-agent workflows.
+- ellmos-ai/coma: local library and CLI for file-based agent-job coordination and process startup.
 - ellmos-ai/ellmos-filecommander-mcp: MCP server for filesystem, process, OCR, ZIP, Markdown/PDF export, and interactive sessions.
 - ellmos-ai/ellmos-controlcenter-mcp: MCP control plane for local server discovery, profiles, capability bundles, and policy audits.
 - ellmos-ai/ellmos-codecommander-mcp: MCP server for AST-based code analysis, structural refactoring, and code repair.
