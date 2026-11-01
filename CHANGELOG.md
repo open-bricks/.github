@@ -2,6 +2,19 @@
 
 All notable changes to the `open-bricks` organization profile and shared community files will be documented in this file.
 
+## [Unreleased] - 2026-11-01
+
+### Maintenance, Ecosystem Index & Discoverability
+- **Ecosystem Public Inventory Sync:** Re-verified live GitHub API counts across all 10 organizations (sweep of 136 total public repositories across 10 organizations). Active public product/research repositories confirmed at 124, plus 10 `.github` profiles, totaling 134 active public repositories (and 2 archived: `fable-5-hunter` in `dev-bricks`, `rfep-framework` in `research-line`).
+- **Surface Sync & Extended Spotlight:**
+  - `file-bricks` (16 active product repos, 17 total): Added `KnowledgeDigest`, `absorber`, and `RSS-BOOK` to indexed surfaces and spotlight listings.
+  - `dev-bricks` (13 active product repos, 14 total): Synchronized `companion-for-agy` (desktop companion and workflow bridge for Antigravity agents, canonical dev-bricks namespace per D-20261030-011) and `githubbot-core` (multi-organization GitHub maintenance, traffic analysis, and automation core).
+  - `ellmos-ai` (67 active product repos, 68 total): Re-verified live repository catalogue; removed obsolete standalone entry for `companion-for-agy` (now correctly attributed to `dev-bricks`).
+  - `um-bruch` (5 active product repos, 6 total): Re-verified all public civic-tech and health-policy repositories including `verordnungsampel` and `locuterra`.
+- **Search Phrases & SEO:** Added bilingual and tool-specific search phrases for `companion-for-agy`, `githubbot-core`, `KnowledgeDigest`, `absorber`, and `verordnungsampel` across `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- **Automated Profile Parity Tests:** Extended `tests/test_profile_parity.py` to enforce timestamp `2026-11-01`, 134 active repositories across badges and markdown summaries, and verified spotlight coverage for all newly synchronized repositories (8/8 tests passed 100% green).
+- **Last-Checked Timestamps:** Synchronized `2026-11-01` / `01.11.2026` across all public profile documents.
+
 ## [1.0.10] - 2026-10-10
 
 ### Maintenance, Ecosystem Index & Discoverability
