@@ -1,4 +1,4 @@
-## Last-checked: 2026-10-10
+## Last-checked: 2026-11-08
 
 # open-bricks
 
@@ -7,12 +7,12 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-10-10:
+Index status as of 2026-11-08:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 129 active public product or research repositories plus 10 active public `.github` profile repositories (139 active public repositories total).
+- The linked ecosystem has 140 active public product or research repositories plus 10 active public `.github` profile repositories (150 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
-Full re-verification: every count and index entry was measured against the live GitHub inventory on 2026-10-10, which supersedes the targeted 2026-10-03 Zombie-Killer-Tray spot check. New since the previous snapshot: ellmos-ai/ellmos-system-gui.
+Full re-verification: every count and index entry was measured against the live GitHub inventory on 2026-11-08. Newly synchronized repositories across member organizations: ellmos-ai/ellmos-plugins (Claude Code & Antigravity plugin catalog), research-line/eth-dependency-atlas (smart contract dependency graph & formal analysis), ellmos-ai/ellmos-codecommander-mcp, dev-bricks/companion-for-agy, file-bricks/KnowledgeDigest, and um-bruch/verordnungsampel.
 
 ## Audience
 
@@ -52,6 +52,7 @@ Representative repositories:
 - file-bricks/SQLiteViewer: local SQLite inspection tool.
 - file-bricks/SoftwareCenter: desktop software launcher and catalog surface.
 - file-bricks/WinStorePackager: Windows Store and MSIX packaging helper for local desktop applications.
+- file-bricks/absorber: local-first file absorption, format conversion, and directory intake utility.
 - doc-bricks/CleanMarkdown: local-first Markdown viewer/editor with reading mode and PDF export.
 - doc-bricks/DokuReader: local document reading and extraction helper.
 - doc-bricks/DokuZen: local document workspace and reading assistant.
@@ -73,6 +74,9 @@ Representative repositories:
 - dev-bricks/safe-start-for-codex: Windows startup gate for Codex Desktop automations.
 - dev-bricks/app-rotator: quick window rotator and workspace task switcher.
 - dev-bricks/zombie-killer-tray: Windows tray utility for conservative cleanup of orphaned MCP and language-server processes (project main checked 2026-10-03).
+- dev-bricks/companion-for-agy: desktop companion and workflow bridge for Antigravity agents.
+- dev-bricks/githubbot-core: multi-organization GitHub maintenance, traffic analysis, and automation core.
+- ellmos-ai/ellmos-plugins: plugin marketplace and skill catalog for Claude Code and Antigravity agents.
 - ellmos-ai/bach: text-based operating system for LLMs.
 - ellmos-ai/ellmos-system-gui: shared static GUI artifact for BACH and Ocean with a version-pinned backend contract.
 - ellmos-ai/agent-ops-stack: manifest-driven local agent-ops composition for ticket routing, locks, decision-avatar, skills, and MCP control.
@@ -91,7 +95,6 @@ Representative repositories:
 - ellmos-ai/ellmos-clatcher-mcp: MCP server for desktop window capture, OCR, and accessibility inspection.
 - ellmos-ai/ellmos-servercommander-mcp: MCP server for local server command, process, and status workflows.
 - ellmos-ai/n8n-manager-mcp: MCP server for programmatic local workflow orchestration, execution monitoring, and node inspection in n8n.
-- ellmos-ai/companion-for-agy: desktop companion and workflow bridge for Antigravity agents.
 - ellmos-ai/usmc: universal state and memory coordinator for autonomous agent swarms.
 - ellmos-ai/open-compute: model-agnostic computer-use core with normalized coordinates and safety gate.
 - ellmos-ai/open-compute-mcp: MCP bridge for open-compute style computer-use workflows.
@@ -108,6 +111,7 @@ Representative repositories:
 - biotec-line/VFDistiller: research-use VCF/gVCF variant annotation desktop app.
 - biotec-line/genotype-to-vcf: local 23andMe and DTC DNA raw data to VCF converter.
 - assistassets-ai/FinancialProof: local-first financial market pattern analysis; no trading advice.
+- research-line/eth-dependency-atlas: research atlas and formal dependency graph for smart contract ecosystems.
 - research-line/abc-hct: research verification on the abc conjecture and Hecke character theory.
 - research-line/ai-elite-swr: AI elite and worldview reconstruction research repository.
 - research-line/crm-cosmology: curvature feedback cosmology research repository.
@@ -164,7 +168,14 @@ research-line abc-hct abc conjecture hecke verification
 um-bruch locuterra local-first civic prototype
 open-bricks software suite GitHub
 ellmos-ai ellmos-system-gui shared static GUI artifact
-open-bricks 139 repositories open source
+open-bricks 150 repositories open source
+ellmos-ai ellmos-plugins agent marketplace catalog
+research-line eth-dependency-atlas formal analysis atlas
+dev-bricks companion-for-agy local AGY companion bridge
+dev-bricks githubbot-core multi-org GitHub management automation
+file-bricks KnowledgeDigest local knowledge distillation
+file-bricks absorber local file absorption and intake
+um-bruch verordnungsampel local prescribing budget rule checker
 local-first AI desktop apps
 open-bricks umbrella organization GitHub
 Umbruch health policy civic tech GitHub
