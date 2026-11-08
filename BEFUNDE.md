@@ -44,6 +44,32 @@ Stand belegbar. Der Folgelauf am 2026-08-03 hat `README.md`, `profile/README.md`
 plus 10 aktive `.github`-Profilrepos aktualisiert und die veralteten
 `dev-bricks`-Beispiellinks ersetzt.
 
+## 2026-11-08 — Turnusmäßiger Health-Audit & Paritäts-Abgleich
+
+Status: erledigt am 2026-11-08; sämtliche Indexoberflächen auf 150 aktive öffentliche Repositories synchronisiert.
+
+Vollständiger Live-Inventar-Abgleich über alle 10 Organisationen mit `gh repo list <org> --limit 200 --json name,isArchived,isFork,isPrivate`:
+
+| Organisation | aktive Repositories | aktive `.github`-Profile | aktive Produkt-/Forschungs-Repositories |
+|---|---:|---:|---:|---:|
+| file-bricks | 17 | 1 | 16 |
+| doc-bricks | 12 | 1 | 11 |
+| dev-bricks | 14 | 1 | 13 (+1 arch.) |
+| ellmos-ai | 83 | 1 | 82 (+2 arch.) |
+| research-line | 8 | 1 | 7 (+1 arch.) |
+| biotec-line | 3 | 1 | 2 |
+| assistassets-ai | 2 | 1 | 1 |
+| entertain-and-more | 4 | 1 | 3 |
+| um-bruch | 6 | 1 | 5 |
+| open-bricks | 1 | 1 | 0 |
+| **Summe** | **150** | **10** | **140** |
+
+Abweichungen und Korrekturen gegenüber Stand 2026-11-01:
+- `ellmos-ai`: 82 aktive Produkt-Repositories (+15 gegenüber der aggregierten Zählung vom 01.11.; u. a. `ellmos-plugins` als neuer Marktplatzkatalog, `ellmos-codecommander-mcp`, `skills`, `lock-master`, `decision-clicker`, `ticket-master`).
+- `research-line`: 7 aktive Produkt-Repositories (+1; `eth-dependency-atlas` zur formale Dependenz- und Smart-Contract-Analyse aufgenommen).
+- Gesamtzahl aktiver öffentlicher Repositories von 134 auf 150 aktualisiert.
+- Paritätstestsuite `tests/test_profile_parity.py` aktualisiert (8/8 Tests 100% grün).
+
 ## 2026-11-01 — Turnusmäßiger Health-Audit & Paritäts-Abgleich
 
 Status: erledigt am 2026-11-01; sämtliche Indexoberflächen auf 134 aktive öffentliche Repositories synchronisiert.

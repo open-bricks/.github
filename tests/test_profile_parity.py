@@ -22,10 +22,10 @@ def test_timestamp_parity():
     root_content = ROOT_README.read_text(encoding="utf-8")
     llms_content = LLMS_TXT.read_text(encoding="utf-8")
 
-    assert "<!-- last-checked: 2026-11-01 -->" in en_content
-    assert "<!-- last-checked: 2026-11-01 -->" in de_content
-    assert "Last verified: 2026-11-01" in root_content
-    assert "## Last-checked: 2026-11-01" in llms_content
+    assert "<!-- last-checked: 2026-11-08 -->" in en_content
+    assert "<!-- last-checked: 2026-11-08 -->" in de_content
+    assert "Last verified: 2026-11-08" in root_content
+    assert "## Last-checked: 2026-11-08" in llms_content
 
 
 def test_repository_counts():
@@ -35,14 +35,14 @@ def test_repository_counts():
     llms_content = LLMS_TXT.read_text(encoding="utf-8")
 
     # Badges
-    assert "Public_Repositories-134_Active-success" in en_content
-    assert "%C3%96ffentliche_Repositories-134_Aktiv-success" in de_content
+    assert "Public_Repositories-150_Active-success" in en_content
+    assert "%C3%96ffentliche_Repositories-150_Aktiv-success" in de_content
 
     # Summary text
-    assert "134 active public repositories" in en_content
-    assert "134 aktive öffentliche Repositories" in de_content
-    assert "134 active public repositories in total" in root_content
-    assert "134 active public repositories total" in llms_content
+    assert "150 active public repositories" in en_content
+    assert "150 aktive öffentliche Repositories" in de_content
+    assert "150 active public repositories in total" in root_content
+    assert "150 active public repositories total" in llms_content
 
 
 def test_all_partner_organizations_present():

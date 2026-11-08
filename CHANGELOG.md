@@ -2,6 +2,18 @@
 
 All notable changes to the `open-bricks` organization profile and shared community files will be documented in this file.
 
+## [Unreleased] - 2026-11-08
+
+### Maintenance, Ecosystem Index & Discoverability
+- **Ecosystem Public Inventory Sync:** Re-verified live GitHub API counts across all 10 organizations (sweep of 154 total public repositories: 150 active and 4 archived across 10 organizations). Active public product/research repositories confirmed at 140, plus 10 `.github` profiles, totaling 150 active public repositories (and 4 archived: `dev-bricks/fable-5-hunter`, `ellmos-ai/roshambo`, `ellmos-ai/recludos-legacy`, and `research-line/rfep-framework`).
+- **Surface Sync & Extended Spotlight:**
+  - `ellmos-ai` (82 active product repos, 83 active total, 2 archived): Synchronized brand-new `ellmos-plugins` (Claude Code & Antigravity plugin marketplace catalog) and updated ecosystem highlights.
+  - `research-line` (7 active product repos, 8 active total, 1 archived): Synchronized `eth-dependency-atlas` (smart contract dependency graph and formal analysis atlas) alongside existing research lines.
+  - `file-bricks` (16 active product repos, 17 active total), `doc-bricks` (11 active product repos, 12 active total), `dev-bricks` (13 active product repos, 14 active total, 1 archived), `biotec-line` (2 active product repos, 3 active total), `assistassets-ai` (1 active product repo, 2 active total), `entertain-and-more` (3 active product repos, 4 active total), and `um-bruch` (5 active product repos, 6 active total): Fully reconciled with 0 inventory drift.
+- **Search Phrases & SEO:** Added bilingual and tool-specific search phrases for `ellmos-plugins`, `eth-dependency-atlas`, and the 150 repository milestone across `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- **Automated Profile Parity Tests:** Updated `tests/test_profile_parity.py` to enforce timestamp `2026-11-08`, 150 active repositories across badges and markdown summaries, and verified spotlight coverage for all newly synchronized repositories (100% green).
+- **Last-Checked Timestamps:** Synchronized `2026-11-08` / `08.11.2026` across all public profile documents.
+
 ## [Unreleased] - 2026-11-01
 
 ### Maintenance, Ecosystem Index & Discoverability

@@ -1,4 +1,4 @@
-## Last-checked: 2026-11-01
+## Last-checked: 2026-11-08
 
 # open-bricks
 
@@ -7,12 +7,12 @@ Profile repository: https://github.com/open-bricks/.github
 
 open-bricks is an umbrella GitHub profile for local-first desktop software, document tools, developer tools, AI infrastructure, open research repositories, bioinformatics utilities, finance review tools, games, and public-interest prototypes.
 
-Index status as of 2026-11-01:
+Index status as of 2026-11-08:
 - open-bricks itself hosts only the `.github` profile and community-health repository.
-- The linked ecosystem has 124 active public product or research repositories plus 10 active public `.github` profile repositories (134 active public repositories total).
+- The linked ecosystem has 140 active public product or research repositories plus 10 active public `.github` profile repositories (150 active public repositories total).
 - Private/internal repositories are intentionally excluded from this public index.
 - Archived public repositories are excluded from active counts unless they are explicitly named as archived context.
-Full re-verification: every count and index entry was measured against the live GitHub inventory on 2026-11-01. Newly synchronized repositories across member organizations: dev-bricks/companion-for-agy, dev-bricks/githubbot-core, file-bricks/KnowledgeDigest, file-bricks/absorber, file-bricks/RSS-BOOK, and um-bruch/verordnungsampel.
+Full re-verification: every count and index entry was measured against the live GitHub inventory on 2026-11-08. Newly synchronized repositories across member organizations: ellmos-ai/ellmos-plugins (Claude Code & Antigravity plugin catalog), research-line/eth-dependency-atlas (smart contract dependency graph & formal analysis), ellmos-ai/ellmos-codecommander-mcp, dev-bricks/companion-for-agy, file-bricks/KnowledgeDigest, and um-bruch/verordnungsampel.
 
 ## Audience
 
@@ -76,6 +76,7 @@ Representative repositories:
 - dev-bricks/zombie-killer-tray: Windows tray utility for conservative cleanup of orphaned MCP and language-server processes (project main checked 2026-10-03).
 - dev-bricks/companion-for-agy: desktop companion and workflow bridge for Antigravity agents.
 - dev-bricks/githubbot-core: multi-organization GitHub maintenance, traffic analysis, and automation core.
+- ellmos-ai/ellmos-plugins: plugin marketplace and skill catalog for Claude Code and Antigravity agents.
 - ellmos-ai/bach: text-based operating system for LLMs.
 - ellmos-ai/ellmos-system-gui: shared static GUI artifact for BACH and Ocean with a version-pinned backend contract.
 - ellmos-ai/agent-ops-stack: manifest-driven local agent-ops composition for ticket routing, locks, decision-avatar, skills, and MCP control.
@@ -110,6 +111,7 @@ Representative repositories:
 - biotec-line/VFDistiller: research-use VCF/gVCF variant annotation desktop app.
 - biotec-line/genotype-to-vcf: local 23andMe and DTC DNA raw data to VCF converter.
 - assistassets-ai/FinancialProof: local-first financial market pattern analysis; no trading advice.
+- research-line/eth-dependency-atlas: research atlas and formal dependency graph for smart contract ecosystems.
 - research-line/abc-hct: research verification on the abc conjecture and Hecke character theory.
 - research-line/ai-elite-swr: AI elite and worldview reconstruction research repository.
 - research-line/crm-cosmology: curvature feedback cosmology research repository.
@@ -166,7 +168,9 @@ research-line abc-hct abc conjecture hecke verification
 um-bruch locuterra local-first civic prototype
 open-bricks software suite GitHub
 ellmos-ai ellmos-system-gui shared static GUI artifact
-open-bricks 134 repositories open source
+open-bricks 150 repositories open source
+ellmos-ai ellmos-plugins agent marketplace catalog
+research-line eth-dependency-atlas formal analysis atlas
 dev-bricks companion-for-agy local AGY companion bridge
 dev-bricks githubbot-core multi-org GitHub management automation
 file-bricks KnowledgeDigest local knowledge distillation
